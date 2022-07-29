@@ -111,11 +111,26 @@ html {
   padding: 5px;
   font-size: 48px;
   font-family: "Libre Baskerville", serif;
+  animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 300ms both;
+}
+@keyframes focus-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    transform: translateZ(-800px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    filter: blur(0);
+    opacity: 1;
+  }
 }
 .section__container--bg__p {
   padding-bottom: 2%;
   font-size: 12px;
   font-family: "Libre Baskerville", serif;
+  animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 300ms both;
 }
 /* Fin informacion del sitio */
 /* Inicio productos */
