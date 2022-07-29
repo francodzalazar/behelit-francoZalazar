@@ -385,6 +385,7 @@ html {
   color: #d1d8e0;
   font-family: "Libre Baskerville", serif;
   border: solid 1px #2c3e50;
+  cursor: pointer;
 }
 /* Fin formulario de contacto */
 /* Informacion de contacto */
@@ -706,6 +707,12 @@ html {
     grid-template-columns: 1fr 1fr;
     gap: 0px 0px;
     grid-template-areas: "contact info";
+  }
+  .btn:hover{
+    background-color: #2d3436;
+    border: 10px solid #34495e;
+    transform: scale(1.1);
+    transition: all 500ms;
   }
   /* Fin formulario de contacto */
   /* Informacion de contacto */
