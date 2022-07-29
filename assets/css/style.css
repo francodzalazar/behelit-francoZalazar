@@ -84,11 +84,6 @@ html {
   font-size: 20px;
   font-family: "Lora", serif;
 }
-.nav__ul li:hover {
-  background-color: #2d3436;
-  border-radius: 5%;
-  transition: all 500ms;
-}
 .nav__ul a {
   text-decoration: none;
   color: #d1d8e0;
@@ -116,20 +111,6 @@ html {
   padding: 5px;
   font-size: 48px;
   font-family: "Libre Baskerville", serif;
-  animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 300ms both;
-}
-@keyframes focus-in-expand-fwd {
-  0% {
-    letter-spacing: -0.5em;
-    transform: translateZ(-800px);
-    filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateZ(0);
-    filter: blur(0);
-    opacity: 1;
-  }
 }
 .section__container--bg__p {
   padding-bottom: 2%;
@@ -166,11 +147,6 @@ html {
   margin-top: 15%;
   background-color: #fff;
   border: solid 1px black;
-  opacity: 80%;
-}
-.section__article:hover {
-  opacity: 100%;
-  transition: all 500ms;
 }
 .section__article__img {
   display: block;
@@ -275,10 +251,6 @@ html {
   margin: 10px 3%;
   background-color: #fff;
   border: solid 1px black;
-}
-.card:hover {
-  transform: scale(1.2,1.2);
-  transition: all 500ms;
 }
 .section__card__a {
   display: block;
@@ -568,10 +540,29 @@ html {
     padding: 1%;
     font-size: 20px;
   }
+  .nav__ul li:hover {
+    background-color: #2d3436;
+    border-radius: 5%;
+    transition: all 500ms;
+  }
   /* Fin Nav */
   /* Informacion del sitio */
   .section__container--bg__h1 {
     font-size: 90px;
+    animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 300ms both;
+  }
+  @keyframes focus-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      transform: translateZ(-800px);
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateZ(0);
+      filter: blur(0);
+      opacity: 1;
+    }
   }
   .section__container--bg__p {
     margin-top: 30px;
@@ -594,6 +585,11 @@ html {
   .section__article {
     height: 100%;
     margin-top: 5%;
+    opacity: 80%;
+  }
+  .section__article:hover {
+    opacity: 100%;
+    transition: all 500ms;
   }
   .section__article__h3 {
     margin-top: 5px;
@@ -664,6 +660,10 @@ html {
   }
   .card {
     width: 15%;
+  }
+  .card:hover {
+    transform: scale(1.2,1.2);
+    transition: all 500ms;
   }
   /* Fin cards */
   /* Paginador */
