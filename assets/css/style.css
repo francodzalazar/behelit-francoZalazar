@@ -65,7 +65,7 @@ html {
 .shop {
   width: 30px;
 }
-.shop:hover{
+.shop:hover {
   animation: heartBeat;
   animation-duration: 800ms;
 }
@@ -116,7 +116,8 @@ html {
   padding-bottom: 2%;
   font-size: 12px;
   font-family: "Libre Baskerville", serif;
-  animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 300ms both;
+  animation: focus-in-expand-fwd 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 300ms
+    both;
 }
 /* Fin informacion del sitio */
 /* Inicio productos */
@@ -250,7 +251,6 @@ html {
   width: 40%;
   margin: 10px 3%;
   background-color: #fff;
-  border: solid 1px black;
 }
 .section__card__a {
   display: block;
@@ -550,7 +550,8 @@ html {
   /* Informacion del sitio */
   .section__container--bg__h1 {
     font-size: 90px;
-    animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 300ms both;
+    animation: focus-in-expand-fwd 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+      300ms both;
   }
   @keyframes focus-in-expand-fwd {
     0% {
@@ -630,14 +631,6 @@ html {
   .filter--responsive {
     display: none;
   }
-  .btn--search {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    color: #d1d8e0;
-    font-size: 20px;
-    font-family: "Lora", serif;
-  }
   .search__ul {
     display: none;
     position: absolute;
@@ -663,11 +656,17 @@ html {
     width: 15%;
   }
   .card:hover {
-    transform: scale(1.2,1.2);
+    box-shadow: 0px 4px 14px 2px rgba(143, 136, 136, 0.59);
+    -webkit-box-shadow: 0px 4px 14px 2px rgba(143, 136, 136, 0.59);
+    -moz-box-shadow: 0px 4px 14px 2px rgba(143, 136, 136, 0.59);
+    transform: scale(1.2, 1.2);
     transition: all 500ms;
   }
   /* Fin cards */
   /* Paginador */
+  .section__pagination__ul__li__a:hover {
+    color:#34495e;
+  }
   /* Fin paginador */
   /* Barra lateral */
   .main__section--lateral {
@@ -708,9 +707,9 @@ html {
     gap: 0px 0px;
     grid-template-areas: "contact info";
   }
-  .btn:hover{
+  .btn:hover {
     background-color: #2d3436;
-    border: 10px solid #34495e;
+    border: 2px solid #34495e;
     transform: scale(1.1);
     transition: all 500ms;
   }
