@@ -166,6 +166,11 @@ html {
   margin-top: 15%;
   background-color: #fff;
   border: solid 1px black;
+  opacity: 80%;
+}
+.section__article:hover {
+  opacity: 100%;
+  transition: all 500ms;
 }
 .section__article__img {
   display: block;
@@ -270,6 +275,10 @@ html {
   margin: 10px 3%;
   background-color: #fff;
   border: solid 1px black;
+}
+.card:hover {
+  transform: scale(1.2,1.2);
+  transition: all 500ms;
 }
 .section__card__a {
   display: block;
