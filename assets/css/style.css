@@ -376,7 +376,7 @@ html {
   resize: none;
   outline: none;
 }
-.btn {
+.button {
   display: block;
   width: 100%;
   margin: 10% 0px;
@@ -707,7 +707,7 @@ html {
     gap: 0px 0px;
     grid-template-areas: "contact info";
   }
-  .btn:hover {
+  .button:hover {
     background-color: #2d3436;
     border: 2px solid #34495e;
     transform: scale(1.1);

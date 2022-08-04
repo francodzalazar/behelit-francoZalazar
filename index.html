@@ -28,60 +28,71 @@
   </head>
   <body>
     <!-- Contenedor -->
-    <div class="container-fluid">
+    <div class="container-fluid bg-dark">
       <!-- Logo + nav  -->
-      <header class="header">
-        <a href="index.html" class="header__a"
-          ><img src="assets/img/logo.png" alt="img-logo" class="logo" />
-        </a>
-        <div class="conteiner--logos">
-          <a href=""
-            ><img src="assets/img/carrito.png" alt="carrito" class="shop" />
-          </a>
-          <i class="icon--responsive--none fa-solid fa-bars fa-2xl"></i>
-        </div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarColor02">
-              <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                  <a class="nav-link active" href="index.html">Inicio
-                    <span class="visually-hidden">(current)</span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pages/mangas.html">Mangas</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pages/indumentaria.html">Indumentaria</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pages/merchandising.html">Merchandising</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pages/contacto.html">Contacto</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pages/nosotros.html">Sobre nosotros</a>
-                </li>
+      <header class="row">
+        <div class="col-11 col-sm-11">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"
+                ><img src="assets/img/logo.png" alt="logo" class="logo"
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse show justify-content-center"
+                id="navbarNavAltMarkup"
+              >
+                <div class="navbar-nav">
+                  <a
+                    class="nav-link me-5 bd-highlight d-inline-block"
+                    href="index.html"
+                    >Inicio</a
+                  >
+                  <a
+                    class="nav-link me-5 bd-highlight d-inline-block"
+                    href="pages/mangas.html"
+                    >Mangas</a
+                  >
+                  <a
+                    class="nav-link me-5 bd-highlight d-inline-block"
+                    href="pages/indumentaria.html"
+                    >Indumentaria</a
+                  >
+                  <a
+                    class="nav-link me-5 bd-highlight d-inline-block"
+                    href="pages/merchandising.html"
+                    >Merchandising</a
+                  >
+                  <a
+                    class="nav-link me-5 bd-highlight d-inline-block"
+                    href="pages/contacto.html"
+                    >Contacto</a
+                  >
+                  <a
+                    class="nav-link me-5 bd-highlight d-inline-block"
+                    href="pages/nosotros.html"
+                    >Sobre nosotros</a
+                  >
+                </div>
+              </div>
             </div>
-          </div>
-        </nav>
-        <nav class="nav">
-          <ul class="nav__ul">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="pages/mangas.html">Mangas</a></li>
-            <li><a href="pages/indumentaria.html">Indumentaria</a></li>
-            <li><a href="pages/merchandising.html">Merchandising</a></li>
-            <li><a href="pages/contacto.html">Contacto</a></li>
-            <li><a href="pages/nosotros.html">Sobre nosotros</a></li>
-          </ul>
-        </nav>
+          </nav>
+        </div>
+        <div class="col-1 p-0">
+          <button type="button" class="btn btn-dark mt-4 p-0"><i class="fa-solid fa-cart-shopping fs-3"></i></button>
+        </div>
       </header>
+    </div>
       <!-- Fin logo + nav-->
       <!-- Informacion del sitio -->
       <main class="main">
@@ -181,7 +192,7 @@
         </div>
       </footer>
       <!-- Fin footer -->
-    </div>
+    
     <!-- Fin Contenedor -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
