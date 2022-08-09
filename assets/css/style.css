@@ -447,26 +447,13 @@ html {
 }
 /* Fin informacion de contacto */
 /* Inicio footer */
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #34495e;
-}
 .logo.logo--footer {
   margin-top: 20px;
-  order: 1;
 }
 .footer__h4 {
   color: #d1d8e0;
   font-size: 20px;
   font-family: "Lora", serif;
-  order: 2;
-}
-.footer__container--social {
-  width: 25%;
-  padding-right: 2%;
-  order: 3;
 }
 .footer__a {
   margin: 0 2%;
@@ -766,14 +753,23 @@ html {
     font-size: 24px;
     font-family: "Lora", serif;
   }
-  .footer__container--social {
-    width: auto;
-  }
   .footer__a {
     margin: 0 10px;
   }
   .social {
-    width: 50px;
+    width: 20%;
   }
 }
 /* Fin Responsive */
+/* Estilos Bootstrap */
+.header__nav{
+  font-family: "Lora", serif;
+}
+.section__container--img{
+  background-image: url(../img/wallpaper-manga-2.jpg);
+  height: 75vh;
+  opacity: 0.8;
+}
+.btn--font{
+  font-family: "Libre Baskerville", serif;
+}
