@@ -201,7 +201,7 @@ html {
 }
 .search__h2 {
   text-align: center;
-  color: #d1d8e0;
+  color: #2d3436;
   font-family: "Lora", serif;
 }
 .container--dropdown {
@@ -216,7 +216,7 @@ html {
   background-color: transparent;
   border: none;
   cursor: pointer;
-  color: #d1d8e0;
+  color: #2d3436;
   font-size: 20px;
   font-family: "Lora", serif;
 }
@@ -228,12 +228,12 @@ html {
   z-index: 1;
 }
 .search__ul__li {
-  border: solid 1px #d1d8e0;
+  border: solid 1px #2d3436;
 }
 .search__ul__li__a {
   margin: 15px 5px;
   text-decoration: none;
-  color: #d1d8e0;
+  color: #2d3436;
   font-size: 20px;
   font-family: "Lora", serif;
 }
@@ -293,7 +293,7 @@ html {
 }
 .section__pagination__ul__li__a {
   text-decoration: none;
-  color: #d1d8e0;
+  color: #2d3436;
   font-size: 24px;
   font-family: "Lora", serif;
 }
@@ -307,13 +307,13 @@ html {
   padding-left: 20%;
 }
 .article__lateral__h3 {
-  color: #d1d8e0;
+  color: #2d3436;
   font-size: 30px;
 }
 .article__lateral__h4 {
   margin: 15px 0px;
-  border-bottom: solid 1px #d1d8e0;
-  color: #d1d8e0;
+  border-bottom: solid 1px #2d3436;
+  color: #2d3436;
   font-size: 20px;
 }
 .article__lateral__ul {
@@ -325,7 +325,7 @@ html {
 }
 .article__lateral__ul__li__a {
   text-decoration: none;
-  color: #d1d8e0;
+  color: #2d3436;
   font-size: 20px;
   font-family: "Lora", serif;
 }
@@ -625,12 +625,12 @@ html {
     z-index: 1;
   }
   .search__ul__li {
-    border: solid 1px #d1d8e0;
+    border: solid 1px #2d3436;
   }
   .search__ul__li__a {
     margin: 15px 5px;
     text-decoration: none;
-    color: #d1d8e0;
+    color: #2d3436;
     font-size: 20px;
     font-family: "Lora", serif;
   }
@@ -663,13 +663,13 @@ html {
     padding-left: 20%;
   }
   .article__lateral__h3 {
-    color: #d1d8e0;
+    color: #2d3436;
     font-size: 30px;
   }
   .article__lateral__h4 {
     margin: 15px 0px;
-    border-bottom: solid 1px #d1d8e0;
-    color: #d1d8e0;
+    border-bottom: solid 1px #2d3436;
+    color: #2d3436;
     font-size: 20px;
   }
   .article__lateral__ul {
@@ -681,7 +681,7 @@ html {
   }
   .article__lateral__ul__li__a {
     text-decoration: none;
-    color: #d1d8e0;
+    color: #2d3436;
     font-size: 20px;
     font-family: "Lora", serif;
   }
