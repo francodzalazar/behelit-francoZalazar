@@ -352,7 +352,7 @@ html {
 .section__h1--form {
   margin-top: 5%;
   text-align: center;
-  color: #d1d8e0;
+  color: #2d3436;
   font-family: "Libre Baskerville", serif;
 }
 .section__form {
@@ -396,19 +396,17 @@ html {
   margin: auto;
 }
 .section__h2 {
-  margin: 3% 0px;
   color: #2d3436;
   text-align: center;
   font-family: "Libre Baskerville", serif;
 }
 .section__p {
-  margin: 3% 0;
   color: #2d3436;
   font-size: 14px;
   font-family: "Libre Baskerville", serif;
 }
 .section__iframe {
-  width: 90%;
+  width: 85%;
   height: 40%;
   margin: 2%;
   border: 0;
@@ -701,9 +699,6 @@ html {
   /* Fin formulario de contacto */
   /* Informacion de contacto */
   .section--info {
-    width: 70%;
-  }
-  .section__iframe {
     width: 70%;
   }
   /* Informacion de empresa */
