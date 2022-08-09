@@ -139,8 +139,7 @@ html {
 .section__container__h2 {
   grid-area: article-h2;
   text-align: center;
-  color: #d1d8e0;
-  font-size: 40px;
+  color: #2d3436;
   font-family: "Lora", serif;
 }
 .section__article {
@@ -398,7 +397,7 @@ html {
 }
 .section__h2 {
   margin: 3% 0px;
-  color: #d1d8e0;
+  color: #2d3436;
   text-align: center;
   font-family: "Libre Baskerville", serif;
 }
@@ -704,9 +703,6 @@ html {
   .section--info {
     width: 70%;
   }
-  .section__h2 {
-    margin: 7% 0px;
-  }
   .section__iframe {
     width: 70%;
   }
@@ -762,14 +758,28 @@ html {
 }
 /* Fin Responsive */
 /* Estilos Bootstrap */
+/* Logo + nav */
 .header__nav{
   font-family: "Lora", serif;
 }
+/* Fin logo + nav */
+/* Informacion del sitio */
 .section__container--img{
   background-image: url(../img/wallpaper-manga-2.jpg);
   height: 75vh;
   opacity: 0.8;
 }
+.section__container--text{
+  font-family: "Libre Baskerville", serif;
+  color: #2d3436;
+}
+/* Fin informacion del sitio */
+/* Productos */
+.article--font{
+  font-family: "Lora", serif;
+  color: #2d3436;
+}
 .btn--font{
   font-family: "Libre Baskerville", serif;
 }
+/* Fin productos */
