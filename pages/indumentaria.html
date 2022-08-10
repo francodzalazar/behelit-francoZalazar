@@ -28,7 +28,7 @@
   </head>
   <body>
     <!-- Contenedor -->
-    <div class="container-fluid bg-light p-0">
+    <div class="container-fluid bg-light p-0 vw-100">
       <!-- Logo + nav  -->
       <header class="row">
         <div class="col-11 col-sm-11 p-0">
@@ -95,176 +95,142 @@
         </div>
       </header>
       <!-- Fin logo + nav-->
-      <main class="row main--products">
+      <main class="row">
         <!-- Resultado de busqueda -->
-        <div class="container search">
+        <div class="col-10 col-lg-12 d-flex justify-content-evenly m-3">
           <h2 class="search__h2">
-            Se muestran los principales resultados para "Indumentaria"
+            Se muestran los principales resultados para "INDUMENTARIA"
           </h2>
-          <div class="container--dropdown responsive">
-            <button class="btn--search filter--responsive">
-              <i class="fa-solid fa-filter"></i>
-            </button>
-            <button class="btn--search">Ordenar por</button>
-            <ul class="search__ul">
-              <li class="search__ul__li">
-                <a href="*" class="search__ul__li__a">Relevancia</a>
-              </li>
-              <li class="search__ul__li">
-                <a href="*" class="search__ul__li__a">Mas nuevos</a>
-              </li>
-              <li class="search__ul__li">
-                <a href="*" class="search__ul__li__a">Mayor precio</a>
-              </li>
-              <li class="search__ul__li">
-                <a href="*" class="search__ul__li__a">Menor precio</a>
-              </li>
-              <li class="search__ul__li">
-                <a href="*" class="search__ul__li__a">Alfabeticamente</a>
-              </li>
-            </ul>
-          </div>
+            <div class="dropdown">
+              <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                Ordenar por
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item search__ul__li__a" href="#">Relevancia</a></li>
+                <li><a class="dropdown-item search__ul__li__a" href="#">Mas nuevos</a></li>
+                <li><a class="dropdown-item search__ul__li__a" href="#">Mayor precio</a></li>
+                <li><a class="dropdown-item search__ul__li__a" href="#">Menor precio</a></li>
+                <li><a class="dropdown-item search__ul__li__a" href="#">Alfabeticamente</a></li>
+              </ul>
+            </div>
         </div>
         <!-- Fin resultado de busqueda -->
         <!-- Cards -->
-        <section class="main__section--card">
-          <article class="section__article--card">
-            <div class="card">
-              <a href="*" class="section__card__a">
-                <img
-                  class="section__card__img"
-                  src="../assets/img/products/indumentaria/attack-on-titan/buzo-aot.jpg"
-                  alt="img-aot"
-                />
-              </a>
-              <h3 class="section__card__h3">Attack on Titan</h3>
-              <p class="section__card__p">Buzo</p>
+        <section class="col-12 col-lg-8 order-1 p-0">
+          <div class="row justify-content-evenly">
+            <div class="col-10 col-md-5 col-lg-2  p-0">
+              <div class="card w-100 text-center">
+                <img src="../assets/img/products/indumentaria/attack-on-titan/buzo-aot.jpg" class="card-img-top w-75 mx-auto" alt="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title section__card__h3">Attack on Titan</h5>
+                  <p class="card-text section__card__p">Buzo</p>
+                </div>
+              </div>
             </div>
-            <div class="card">
-              <a href="*" class="section__card__a">
-                <img
-                  class="section__card__img"
-                  src="../assets/img/products/indumentaria/attack-on-titan/remera-aot.jpg"
-                  alt="img-aot"
-                />
-              </a>
-              <h3 class="section__card__h3">Attack on Titan</h3>
-              <p class="section__card__p">Remera</p>
+            <div class="col-10 col-md-5 col-lg-2  p-0">
+              <div class="card w-100 text-center">
+                <img src="../assets/img/products/indumentaria/attack-on-titan/remera-aot.jpg" class="card-img-top w-75 mx-auto" alt="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title section__card__h3">Attack on Titan</h5>
+                  <p class="card-text section__card__p">Remera</p>
+                </div>
+              </div>
             </div>
-            <div class="card">
-              <a href="*" class="section__card__a">
-                <img
-                  class="section__card__img"
-                  src="../assets/img/products/indumentaria/naruto/sweater-naruto.jpeg"
-                  alt="img-naruto"
-                />
-              </a>
-              <h3 class="section__card__h3">Naruto</h3>
-              <p class="section__card__p">Sweater</p>
+            <div class="col-10 col-md-5 col-lg-2  p-0">
+              <div class="card w-100 text-center">
+                <img src="../assets/img/products/indumentaria/naruto/sweater-naruto.jpeg" class="card-img-top w-75 mx-auto" alt="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title section__card__h3">Naruto</h5>
+                  <p class="card-text section__card__p">Sweater</p>
+                </div>
+              </div>
             </div>
-            <div class="card">
-              <a href="*" class="section__card__a">
-                <img
-                  class="section__card__img"
-                  src="../assets/img/products/indumentaria/totoro/remera-totoro.jpg"
-                  alt="img-totoro"
-                />
-              </a>
-              <h3 class="section__card__h3">Totoro</h3>
-              <p class="section__card__p">Remera</p>
+            <div class="col-10 col-md-5 col-lg-2  p-0">
+              <div class="card w-100 text-center">
+                <img src="../assets/img/products/indumentaria/totoro/remera-totoro.jpg" class="card-img-top w-75 mx-auto" alt="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title section__card__h3">Totoro</h5>
+                  <p class="card-text section__card__p">Remera</p>
+                </div>
+              </div>
             </div>
-          </article>
-          <article class="section__article--card">
-            <div class="card">
-              <a href="*" class="section__card__a">
-                <img
-                  class="section__card__img"
-                  src="../assets/img/products/indumentaria/attack-on-titan/buzo-aot.jpg"
-                  alt="img-aot"
-                />
-              </a>
-              <h3 class="section__card__h3">Attack on Titan</h3>
-              <p class="section__card__p">Buzo</p>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-10 col-md-5 col-lg-2  p-0">
+              <div class="card w-100 text-center">
+                <img src="../assets/img/products/indumentaria/attack-on-titan/buzo-aot.jpg" class="card-img-top w-75 mx-auto" alt="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title section__card__h3">Attack on Titan</h5>
+                  <p class="card-text section__card__p">Buzo</p>
+                </div>
+              </div>
             </div>
-            <div class="card">
-              <a href="*" class="section__card__a">
-                <img
-                  class="section__card__img"
-                  src="../assets/img/products/indumentaria/attack-on-titan/remera-aot.jpg"
-                  alt="img-aot"
-                />
-              </a>
-              <h3 class="section__card__h3">Attack on Titan</h3>
-              <p class="section__card__p">Remera</p>
+            <div class="col-10 col-md-5 col-lg-2  p-0">
+              <div class="card w-100 text-center">
+                <img src="../assets/img/products/indumentaria/attack-on-titan/remera-aot.jpg" class="card-img-top w-75 mx-auto" alt="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title section__card__h3">Attack on Titan</h5>
+                  <p class="card-text section__card__p">Remera</p>
+                </div>
+              </div>
             </div>
-            <div class="card">
-              <a href="*" class="section__card__a">
-                <img
-                  class="section__card__img"
-                  src="../assets/img/products/indumentaria/naruto/sweater-naruto.jpeg"
-                  alt="img-naruto"
-                />
-              </a>
-              <h3 class="section__card__h3">Naruto</h3>
-              <p class="section__card__p">Sweater</p>
+            <div class="col-10 col-md-5 col-lg-2  p-0">
+              <div class="card w-100 text-center">
+                <img src="../assets/img/products/indumentaria/naruto/sweater-naruto.jpeg" class="card-img-top w-75 mx-auto" alt="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title section__card__h3">Naruto</h5>
+                  <p class="card-text section__card__p">Sweater</p>
+                </div>
+              </div>
             </div>
-            <div class="card">
-              <a href="*" class="section__card__a">
-                <img
-                  class="section__card__img"
-                  src="../assets/img/products/indumentaria/totoro/remera-totoro.jpg"
-                  alt="img-totoro"
-                />
-              </a>
-              <h3 class="section__card__h3">Totoro</h3>
-              <p class="section__card__p">Remera</p>
+            <div class="col-10 col-md-5 col-lg-2  p-0">
+              <div class="card w-100 text-center">
+                <img src="../assets/img/products/indumentaria/totoro/remera-totoro.jpg" class="card-img-top w-75 mx-auto" alt="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title section__card__h3">Totoro</h5>
+                  <p class="card-text section__card__p">Remera</p>
+                </div>
+              </div>
             </div>
-          </article>
-          <article class="section__article--card">
-            <div class="card">
-              <a href="*" class="section__card__a">
-                <img
-                  class="section__card__img"
-                  src="../assets/img/products/indumentaria/attack-on-titan/buzo-aot.jpg"
-                  alt="img-aot"
-                />
-              </a>
-              <h3 class="section__card__h3">Attack on Titan</h3>
-              <p class="section__card__p">Buzo</p>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-10 col-md-5 col-lg-2  p-0">
+              <div class="card w-100 text-center">
+                <img src="../assets/img/products/indumentaria/attack-on-titan/buzo-aot.jpg" class="card-img-top w-75 mx-auto" alt="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title section__card__h3">Attack on Titan</h5>
+                  <p class="card-text section__card__p">Buzo</p>
+                </div>
+              </div>
             </div>
-            <div class="card">
-              <a href="*" class="section__card__a">
-                <img
-                  class="section__card__img"
-                  src="../assets/img/products/indumentaria/attack-on-titan/remera-aot.jpg"
-                  alt="img-aot"
-                />
-              </a>
-              <h3 class="section__card__h3">Attack on Titan</h3>
-              <p class="section__card__p">Remera</p>
+            <div class="col-10 col-md-5 col-lg-2  p-0">
+              <div class="card w-100 text-center">
+                <img src="../assets/img/products/indumentaria/attack-on-titan/remera-aot.jpg" class="card-img-top w-75 mx-auto" alt="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title section__card__h3">Attack on Titan</h5>
+                  <p class="card-text section__card__p">Remera</p>
+                </div>
+              </div>
             </div>
-            <div class="card">
-              <a href="*" class="section__card__a">
-                <img
-                  class="section__card__img"
-                  src="../assets/img/products/indumentaria/naruto/sweater-naruto.jpeg"
-                  alt="img-naruto"
-                />
-              </a>
-              <h3 class="section__card__h3">Naruto</h3>
-              <p class="section__card__p">Sweater</p>
+            <div class="col-10 col-md-5 col-lg-2  p-0">
+              <div class="card w-100 text-center">
+                <img src="../assets/img/products/indumentaria/naruto/sweater-naruto.jpeg" class="card-img-top w-75 mx-auto" alt="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title section__card__h3">Naruto</h5>
+                  <p class="card-text section__card__p">Sweater</p>
+                </div>
+              </div>
             </div>
-            <div class="card">
-              <a href="*" class="section__card__a">
-                <img
-                  class="section__card__img"
-                  src="../assets/img/products/indumentaria/totoro/remera-totoro.jpg"
-                  alt="img-totoro"
-                />
-              </a>
-              <h3 class="section__card__h3">Totoro</h3>
-              <p class="section__card__p">Remera</p>
+            <div class="col-10 col-md-5 col-lg-2  p-0">
+              <div class="card w-100 text-center">
+                <img src="../assets/img/products/indumentaria/totoro/remera-totoro.jpg" class="card-img-top w-75 mx-auto" alt="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title section__card__h3">Totoro</h5>
+                  <p class="card-text section__card__p">Remera</p>
+                </div>
+              </div>
             </div>
+          </div>
           </article>
           <div class="section__pagination">
             <ul class="section__pagination__ul">
@@ -291,7 +257,7 @@
         </section>
         <!-- Fin cards -->
         <!-- Barra lateral -->
-        <section class="main__section--lateral">
+        <section class="d-none d-lg-block col-lg-4 order-0 p-0">
           <article>
             <div class="article__lateral">
               <h3 class="article__lateral__h3">Filtrar por</h3>
