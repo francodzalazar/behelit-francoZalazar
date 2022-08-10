@@ -680,13 +680,8 @@ html {
     align-items: center;
   }
   .section__p--left {
-    width: 40%;
     color: #2d3436;
-    font-size: 20px;
     font-family: "Libre Baskerville", serif;
-  }
-  .section__img--right {
-    width: 50%;
   }
   .section__img {
     display: block;
