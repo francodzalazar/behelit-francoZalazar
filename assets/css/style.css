@@ -14,17 +14,9 @@ html {
 .logo {
   width: 70px;
 }
-.logo:hover {
-  animation: heartBeat;
-  animation-duration: 800ms;
-}
 .header__button {
   border: none;
   margin-top: 2.5rem;
-}
-.header__button:hover {
-  background-color: transparent;
-  border: none;
 }
 /* Fin logo */
 /* Inicio Nav */
@@ -38,8 +30,8 @@ html {
 /* Fin Nav */
 /* Informacion del sitio */
 .section__container--animation {
-  animation: focus-in-expand-fwd 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    300ms both;
+  animation: focus-in-expand-fwd 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 300ms
+    both;
 }
 @keyframes focus-in-expand-fwd {
   0% {
@@ -102,9 +94,9 @@ html {
   color: #2d3436;
   font-family: "Lora", serif;
 }
-.active .section__pagination__ul__li__a{
-  background-color:#2d3436!important;
-  border-color: #2d3436!important;
+.active .section__pagination__ul__li__a {
+  background-color: #2d3436 !important;
+  border-color: #2d3436 !important;
 }
 /* Fin paginador */
 /* Barra lateral */
@@ -137,7 +129,7 @@ html {
 }
 /* Fin barra lateral */
 /* Formulario de contacto */
-.section__form{
+.section__form {
   font-family: "Libre Baskerville", serif;
 }
 .section__h1--form {
@@ -164,12 +156,13 @@ html {
   margin: 2%;
   border: 0;
 }
+/* Fin informacion de contacto */
 /* Informacion de empresa */
-.section__h4 {
+.section__h5 {
   color: #2d3436;
   font-family: "Libre Baskerville", serif;
 }
-/* Fin informacion de contacto */
+/* Fin informacion de empresa */
 /* Inicio footer */
 .logo.logo--footer {
   margin-top: 20px;
@@ -186,21 +179,20 @@ html {
 }
 /* Fin Footer */
 /* Responsive*/
-/* Vista Tablet */
-@media (min-width: 768px) {
-  .section__form {
-    width: 50%;
-  }
-  .section--info {
-    width: 50%;
-  }
-}
 /* Vista Desktop */
 @media (min-width: 1024px) {
   /* Logo*/
   .logo {
     width: 100px;
     margin-left: 30px;
+  }
+  .logo:hover {
+    animation: heartBeat;
+    animation-duration: 800ms;
+  }
+  .header__button:hover {
+    background-color: transparent;
+    border: none;
   }
   /* Fin logo */
   /* Inicio Nav */
@@ -253,68 +245,17 @@ html {
     font-family: "Lora", serif;
   }
   /* Fin barra lateral */
-  /* Formulario de contacto */
-  .main--contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0px 0px;
-    grid-template-areas: "contact info";
-  }
-  .button:hover {
-    background-color: #2d3436;
-    border: 2px solid #34495e;
-    transform: scale(1.1);
-    transition: all 500ms;
-  }
-  /* Fin formulario de contacto */
-  /* Informacion de contacto */
-  .section--info {
-    width: 70%;
-  }
   /* Informacion de empresa */
-  .section__container--margin {
-    display: block;
-    width: 60%;
-    margin: 20px auto;
+  .section__p{
+    font-size: 1rem;
   }
-  .section__container--flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .section__p--left {
-    color: #2d3436;
-    font-family: "Libre Baskerville", serif;
-  }
-  .section__img {
-    display: block;
-    width: 80%;
-    margin-left: 10%;
-  }
-  .section__h4 {
-    margin: 30px 0;
-    color: #2d3436;
-    text-align: center;
-    font-size: 18px;
-    font-family: "Libre Baskerville", serif;
-  }
-  /* Fin informacion de contacto */
+  /* Fin Informacion de empresa */
   /* Inicio footer */
   .footer {
     margin-top: 2%;
-  }
-  .footer__h4 {
-    color: #d1d8e0;
-    font-size: 24px;
-    font-family: "Lora", serif;
-  }
-  .footer__a {
-    margin: 0 10px;
   }
   .social {
     width: 15%;
   }
 }
 /* Fin Responsive */
-/* Estilos Bootstrap */
