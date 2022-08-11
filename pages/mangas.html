@@ -34,7 +34,7 @@
         <div class="col-11 col-sm-11 p-0">
           <nav class="navbar navbar-expand-lg navbar-dark bg-dark header__nav">
             <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html"
+              <a class="navbar-brand" href="index.html"
                 ><img src="../assets/img/logo.png" alt="logo" class="logo"
               /></a>
               <button
@@ -52,34 +52,34 @@
                 class="collapse navbar-collapse show justify-content-center"
                 id="navbarNavAltMarkup"
               >
-                <div class="navbar-nav align-items-">
+                <div class="navbar-nav">
                   <a
-                    class="header__nav__a nav-link me-5 bd-highlight d-inline-block"
+                    class="nav-link me-5 bd-highlight d-inline-block fs-5 rounded header__nav__a"
                     href="../index.html"
                     >Inicio</a
                   >
                   <a
-                    class="nav-link me-5 bd-highlight d-inline-block"
+                    class="nav-link me-5 bd-highlight d-inline-block fs-5 rounded header__nav__a"
                     href="mangas.html"
                     >Mangas</a
                   >
                   <a
-                    class="nav-link me-5 bd-highlight d-inline-block"
+                    class="nav-link me-5 bd-highlight d-inline-block fs-5 rounded header__nav__a"
                     href="indumentaria.html"
                     >Indumentaria</a
                   >
                   <a
-                    class="nav-link me-5 bd-highlight d-inline-block"
+                    class="nav-link me-5 bd-highlight d-inline-block fs-5 rounded header__nav__a"
                     href="merchandising.html"
                     >Merchandising</a
                   >
                   <a
-                    class="nav-link me-5 bd-highlight d-inline-block"
+                    class="nav-link me-5 bd-highlight d-inline-block fs-5 rounded header__nav__a"
                     href="contacto.html"
                     >Contacto</a
                   >
                   <a
-                    class="nav-link me-5 bd-highlight d-inline-block"
+                    class="nav-link me-5 bd-highlight d-inline-block fs-5 rounded header__nav__a"
                     href="nosotros.html"
                     >Sobre nosotros</a
                   >
@@ -89,8 +89,8 @@
           </nav>
         </div>
         <div class="col-1 p-0 bg-dark">
-          <button type="button" class="btn btn-dark mt-4 p-0">
-            <i class="fa-solid fa-cart-shopping fs-3"></i>
+          <button type="button" class="btn btn-dark p-0 header__button">
+            <i class="fa-solid fa-cart-shopping fs-2"></i>
           </button>
         </div>
       </header>
@@ -98,161 +98,304 @@
       <main class="row m-0 p-0">
         <!-- Resultado de busqueda -->
         <div class="col-10 col-lg-12 d-flex justify-content-evenly my-3 p-0">
-          <h2 class="search__h2">
+          <h2 class="search__h2 text-center">
             Se muestran los principales resultados para "MANGAS"
           </h2>
-            <div class="dropdown">
-              <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                Ordenar por
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item search__ul__li__a" href="#">Relevancia</a></li>
-                <li><a class="dropdown-item search__ul__li__a" href="#">Mas nuevos</a></li>
-                <li><a class="dropdown-item search__ul__li__a" href="#">Mayor precio</a></li>
-                <li><a class="dropdown-item search__ul__li__a" href="#">Menor precio</a></li>
-                <li><a class="dropdown-item search__ul__li__a" href="#">Alfabeticamente</a></li>
-              </ul>
-            </div>
+          <div class="dropdown">
+            <button
+              class="btn btn-dark dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Ordenar por
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li>
+                <a class="dropdown-item search__ul__li__a" href="#"
+                  >Relevancia</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item search__ul__li__a" href="#"
+                  >Mas nuevos</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item search__ul__li__a" href="#"
+                  >Mayor precio</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item search__ul__li__a" href="#"
+                  >Menor precio</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item search__ul__li__a" href="#"
+                  >Alfabeticamente</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
         <!-- Fin resultado de busqueda -->
         <!-- Cards -->
         <section class="col-12 col-lg-8 order-1 p-0">
           <div class="row justify-content-evenly m-0 p-0">
-            <div class="col-10 col-md-5 col-lg-2  p-0">
-              <article class="card w-100 text-center">
-                <img src="../assets/img/products/mangas/berserk/berserk-1.jpg" class="card-img-top w-75 mx-auto" alt="card-img-berserk-1">
+            <article class="col-10 col-md-5 col-lg-2 p-0">
+              <div class="card w-100 text-center my-2 border-2">
+                <img
+                  src="../assets/img/products/mangas/berserk/berserk-1.jpg"
+                  class="card-img-top w-75 mx-auto"
+                  alt="card-img-berserk-1"
+                />
                 <div class="card-body">
-                  <h5 class="card-title section__card__h3">Berserk</h5>
-                  <p class="card-text section__card__p">Tomo 1</p>
-                </div>
-              </article>
-            </div>
-            <div class="col-10 col-md-5 col-lg-2  p-0">
-              <article class="card w-100 text-center">
-                <img src="../assets/img/products/mangas/berserk/berserk-2.jpg" class="card-img-top w-75 mx-auto" alt="card-img-berserk-2">
-                <div class="card-body">
-                  <h5 class="card-title section__card__h3">Berserk</h5>
-                  <p class="card-text section__card__p">Tomo 2</p>
-                </div>
-              </article>
-            </div>
-            <article class="col-10 col-md-5 col-lg-2  p-0">
-              <div class="card w-100 text-center">
-                <img src="../assets/img/products/mangas/berserk/berserk-3.jpg" class="card-img-top w-75 mx-auto" alt="card-img-berserk-3">
-                <div class="card-body">
-                  <h5 class="card-title section__card__h3">Berserk</h5>
-                  <p class="card-text section__card__p">Tomo 3</p>
+                  <h5 class="card-title section__card__h3 fs-4">Berserk</h5>
+                  <p class="card-text section__card__p fs-5">Tomo 1</p>
+                  <div class="card-body">
+                    <a href="#" class="btn btn-dark btn--font"
+                      >Agregar al carro</a
+                    >
+                  </div>
                 </div>
               </div>
             </article>
-            <div class="col-10 col-md-5 col-lg-2  p-0">
-              <article class="card w-100 text-center">
-                <img src="../assets/img/products/mangas/berserk/berserk-4.jpg" class="card-img-top w-75 mx-auto" alt="card-img-berserk-4">
+            <article class="col-10 col-md-5 col-lg-2 p-0">
+              <div class="card w-100 text-center my-2 border-2">
+                <img
+                  src="../assets/img/products/mangas/berserk/berserk-2.jpg"
+                  class="card-img-top w-75 mx-auto"
+                  alt="card-img-berserk-2"
+                />
                 <div class="card-body">
-                  <h5 class="card-title section__card__h3">Berserk</h5>
-                  <p class="card-text section__card__p">Tomo 4</p>
+                  <h5 class="card-title section__card__h3 fs-4">Berserk</h5>
+                  <p class="card-text section__card__p fs-5">Tomo 2</p>
+                  <div class="card-body">
+                    <a href="#" class="btn btn-dark btn--font"
+                      >Agregar al carro</a
+                    >
+                  </div>
                 </div>
-              </article>
-            </div>
+              </div>
+            </article>
+            <article class="col-10 col-md-5 col-lg-2 p-0">
+              <div class="card w-100 text-center my-2 border-2">
+                <img
+                  src="../assets/img/products/mangas/berserk/berserk-3.jpg"
+                  class="card-img-top w-75 mx-auto"
+                  alt="card-img-berserk-3"
+                />
+                <div class="card-body">
+                  <h5 class="card-title section__card__h3 fs-4">Berserk</h5>
+                  <p class="card-text section__card__p fs-5">Tomo 3</p>
+                  <div class="card-body">
+                    <a href="#" class="btn btn-dark btn--font"
+                      >Agregar al carro</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="col-10 col-md-5 col-lg-2 p-0">
+              <div class="card w-100 text-center my-2 border-2">
+                <img
+                  src="../assets/img/products/mangas/berserk/berserk-4.jpg"
+                  class="card-img-top w-75 mx-auto"
+                  alt="card-img-berserk-4"
+                />
+                <div class="card-body">
+                  <h5 class="card-title section__card__h3 fs-4">Berserk</h5>
+                  <p class="card-text section__card__p fs-5">Tomo 4</p>
+                  <div class="card-body">
+                    <a href="#" class="btn btn-dark btn--font"
+                      >Agregar al carro</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </article>
           </div>
           <div class="row justify-content-evenly m-0 p-0">
-            <div class="col-10 col-md-5 col-lg-2  p-0">
-              <article class="card w-100 text-center">
-                <img src="../assets/img/products/mangas/berserk/berserk-1.jpg" class="card-img-top w-75 mx-auto" alt="card-img-berserk-1">
+            <article class="col-10 col-md-5 col-lg-2 p-0">
+              <div class="card w-100 text-center my-2 border-2">
+                <img
+                  src="../assets/img/products/mangas/berserk/berserk-1.jpg"
+                  class="card-img-top w-75 mx-auto"
+                  alt="card-img-berserk-1"
+                />
                 <div class="card-body">
-                  <h5 class="card-title section__card__h3">Berserk</h5>
-                  <p class="card-text section__card__p">Tomo 1</p>
-                </div>
-              </article>
-            </div>
-            <div class="col-10 col-md-5 col-lg-2  p-0">
-              <article class="card w-100 text-center">
-                <img src="../assets/img/products/mangas/berserk/berserk-2.jpg" class="card-img-top w-75 mx-auto" alt="card-img-berserk-2">
-                <div class="card-body">
-                  <h5 class="card-title section__card__h3">Berserk</h5>
-                  <p class="card-text section__card__p">Tomo 2</p>
-                </div>
-              </article>
-            </div>
-            <article class="col-10 col-md-5 col-lg-2  p-0">
-              <div class="card w-100 text-center">
-                <img src="../assets/img/products/mangas/berserk/berserk-3.jpg" class="card-img-top w-75 mx-auto" alt="card-img-berserk-3">
-                <div class="card-body">
-                  <h5 class="card-title section__card__h3">Berserk</h5>
-                  <p class="card-text section__card__p">Tomo 3</p>
+                  <h5 class="card-title section__card__h3 fs-4">Berserk</h5>
+                  <p class="card-text section__card__p fs-5">Tomo 1</p>
+                  <div class="card-body">
+                    <a href="#" class="btn btn-dark btn--font"
+                      >Agregar al carro</a
+                    >
+                  </div>
                 </div>
               </div>
             </article>
-            <div class="col-10 col-md-5 col-lg-2  p-0">
-              <article class="card w-100 text-center">
-                <img src="../assets/img/products/mangas/berserk/berserk-4.jpg" class="card-img-top w-75 mx-auto" alt="card-img-berserk-4">
+            <article class="col-10 col-md-5 col-lg-2 p-0">
+              <div class="card w-100 text-center my-2 border-2">
+                <img
+                  src="../assets/img/products/mangas/berserk/berserk-2.jpg"
+                  class="card-img-top w-75 mx-auto"
+                  alt="card-img-berserk-2"
+                />
                 <div class="card-body">
-                  <h5 class="card-title section__card__h3">Berserk</h5>
-                  <p class="card-text section__card__p">Tomo 4</p>
+                  <h5 class="card-title section__card__h3 fs-4">Berserk</h5>
+                  <p class="card-text section__card__p fs-5">Tomo 2</p>
+                  <div class="card-body">
+                    <a href="#" class="btn btn-dark btn--font"
+                      >Agregar al carro</a
+                    >
+                  </div>
                 </div>
-              </article>
-            </div>
+              </div>
+            </article>
+            <article class="col-10 col-md-5 col-lg-2 p-0">
+              <div class="card w-100 text-center my-2 border-2">
+                <img
+                  src="../assets/img/products/mangas/berserk/berserk-3.jpg"
+                  class="card-img-top w-75 mx-auto"
+                  alt="card-img-berserk-3"
+                />
+                <div class="card-body">
+                  <h5 class="card-title section__card__h3 fs-4">Berserk</h5>
+                  <p class="card-text section__card__p fs-5">Tomo 3</p>
+                  <div class="card-body">
+                    <a href="#" class="btn btn-dark btn--font"
+                      >Agregar al carro</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="col-10 col-md-5 col-lg-2 p-0">
+              <div class="card w-100 text-center my-2 border-2">
+                <img
+                  src="../assets/img/products/mangas/berserk/berserk-4.jpg"
+                  class="card-img-top w-75 mx-auto"
+                  alt="card-img-berserk-4"
+                />
+                <div class="card-body">
+                  <h5 class="card-title section__card__h3 fs-4">Berserk</h5>
+                  <p class="card-text section__card__p fs-5">Tomo 4</p>
+                  <div class="card-body">
+                    <a href="#" class="btn btn-dark btn--font"
+                      >Agregar al carro</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </article>
           </div>
           <div class="row justify-content-evenly m-0 p-0">
-            <div class="col-10 col-md-5 col-lg-2  p-0">
-              <article class="card w-100 text-center">
-                <img src="../assets/img/products/mangas/berserk/berserk-1.jpg" class="card-img-top w-75 mx-auto" alt="card-img-berserk-1">
+            <article class="col-10 col-md-5 col-lg-2 p-0">
+              <div class="card w-100 text-center my-2 border-2">
+                <img
+                  src="../assets/img/products/mangas/berserk/berserk-1.jpg"
+                  class="card-img-top w-75 mx-auto"
+                  alt="card-img-berserk-1"
+                />
                 <div class="card-body">
-                  <h5 class="card-title section__card__h3">Berserk</h5>
-                  <p class="card-text section__card__p">Tomo 1</p>
-                </div>
-              </article>
-            </div>
-            <div class="col-10 col-md-5 col-lg-2  p-0">
-              <article class="card w-100 text-center">
-                <img src="../assets/img/products/mangas/berserk/berserk-2.jpg" class="card-img-top w-75 mx-auto" alt="card-img-berserk-2">
-                <div class="card-body">
-                  <h5 class="card-title section__card__h3">Berserk</h5>
-                  <p class="card-text section__card__p">Tomo 2</p>
-                </div>
-              </article>
-            </div>
-            <article class="col-10 col-md-5 col-lg-2  p-0">
-              <div class="card w-100 text-center">
-                <img src="../assets/img/products/mangas/berserk/berserk-3.jpg" class="card-img-top w-75 mx-auto" alt="card-img-berserk-3">
-                <div class="card-body">
-                  <h5 class="card-title section__card__h3">Berserk</h5>
-                  <p class="card-text section__card__p">Tomo 3</p>
+                  <h5 class="card-title section__card__h3 fs-4">Berserk</h5>
+                  <p class="card-text section__card__p fs-5">Tomo 1</p>
+                  <div class="card-body">
+                    <a href="#" class="btn btn-dark btn--font"
+                      >Agregar al carro</a
+                    >
+                  </div>
                 </div>
               </div>
             </article>
-            <div class="col-10 col-md-5 col-lg-2  p-0">
-              <article class="card w-100 text-center">
-                <img src="../assets/img/products/mangas/berserk/berserk-4.jpg" class="card-img-top w-75 mx-auto" alt="card-img-berserk-4">
+            <article class="col-10 col-md-5 col-lg-2 p-0">
+              <div class="card w-100 text-center my-2 border-2">
+                <img
+                  src="../assets/img/products/mangas/berserk/berserk-2.jpg"
+                  class="card-img-top w-75 mx-auto"
+                  alt="card-img-berserk-2"
+                />
                 <div class="card-body">
-                  <h5 class="card-title section__card__h3">Berserk</h5>
-                  <p class="card-text section__card__p">Tomo 4</p>
+                  <h5 class="card-title section__card__h3 fs-4">Berserk</h5>
+                  <p class="card-text section__card__p fs-5">Tomo 2</p>
+                  <div class="card-body">
+                    <a href="#" class="btn btn-dark btn--font"
+                      >Agregar al carro</a
+                    >
+                  </div>
                 </div>
-              </article>
-            </div>
+              </div>
+            </article>
+            <article class="col-10 col-md-5 col-lg-2 p-0">
+              <div class="card w-100 text-center my-2 border-2">
+                <img
+                  src="../assets/img/products/mangas/berserk/berserk-3.jpg"
+                  class="card-img-top w-75 mx-auto"
+                  alt="card-img-berserk-3"
+                />
+                <div class="card-body">
+                  <h5 class="card-title section__card__h3 fs-4">Berserk</h5>
+                  <p class="card-text section__card__p fs-5">Tomo 3</p>
+                  <div class="card-body">
+                    <a href="#" class="btn btn-dark btn--font"
+                      >Agregar al carro</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="col-10 col-md-5 col-lg-2 p-0">
+              <div class="card w-100 text-center my-2 border-2">
+                <img
+                  src="../assets/img/products/mangas/berserk/berserk-4.jpg"
+                  class="card-img-top w-75 mx-auto"
+                  alt="card-img-berserk-4"
+                />
+                <div class="card-body">
+                  <h5 class="card-title section__card__h3 fs-4">Berserk</h5>
+                  <p class="card-text section__card__p fs-5">Tomo 4</p>
+                  <div class="card-body">
+                    <a href="#" class="btn btn-dark btn--font"
+                      >Agregar al carro</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </article>
           </div>
-          <div class="section__pagination">
-            <ul class="section__pagination__ul">
-              <li class="section__pagination__ul__li">
-                <a href="*" class="section__pagination__ul__li__a">1</a>
+          <!-- Paginador -->
+          <nav aria-label="Large page navigation">
+            <ul class="pagination pagination-lg justify-content-center my-3">
+              <li class="page-item disabled">
+                <span class="page-link section__pagination__ul__li__a"
+                  >Previous</span
+                >
               </li>
-              <li class="section__pagination__ul__li">
-                <a href="*" class="section__pagination__ul__li__a">2</a>
+              <li class="page-item active" aria-current="page">
+                <a class="page-link section__pagination__ul__li__a" href="#"
+                  >1</a
+                >
               </li>
-              <li class="section__pagination__ul__li">
-                <a href="*" class="section__pagination__ul__li__a">3</a>
+              <li class="page-item">
+                <a class="page-link section__pagination__ul__li__a" href="#"
+                  >2</a
+                >
               </li>
-              <li class="section__pagination__ul__li">
-                <a href="*" class="section__pagination__ul__li__a">4</a>
+              <li class="page-item">
+                <a class="page-link section__pagination__ul__li__a" href="#"
+                  >3</a
+                >
               </li>
-              <li class="section__pagination__ul__li">
-                <a href="*" class="section__pagination__ul__li__a">5</a>
-              </li>
-              <li class="section__pagination__ul__li">
-                <a href="*" class="section__pagination__ul__li__a">></a>
+              <li class="page-item">
+                <a class="page-link section__pagination__ul__li__a" href="#"
+                  >Next</a
+                >
               </li>
             </ul>
-          </div>
+          </nav>
+          <!-- Fin paginador -->
         </section>
         <!-- Fin cards -->
         <!-- Barra lateral -->
