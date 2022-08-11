@@ -97,47 +97,150 @@
       <!-- Fin logo + nav-->
       <main class="row m-0 p-0">
         <!-- Resultado de busqueda -->
-        <div class="col-10 col-lg-12 d-flex justify-content-evenly my-3 p-0">
-          <h2 class="search__h2 text-center">
-            Se muestran los principales resultados para "MANGAS"
-          </h2>
-          <div class="dropdown">
-            <button
-              class="btn btn-dark dropdown-toggle"
-              type="button"
-              id="dropdownMenuButton"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Ordenar por
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li>
-                <a class="dropdown-item search__ul__li__a" href="#"
-                  >Relevancia</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item search__ul__li__a" href="#"
-                  >Mas nuevos</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item search__ul__li__a" href="#"
-                  >Mayor precio</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item search__ul__li__a" href="#"
-                  >Menor precio</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item search__ul__li__a" href="#"
-                  >Alfabeticamente</a
-                >
-              </li>
-            </ul>
+        <div class="container--search">
+          <div class="col-12 d-flex justify-content-evenly my-3 p-0">
+            <h2 class="search__h2 text-center">
+              Se muestran los principales resultados para "MANGAS"
+            </h2>
+            <div class="dropdown d-none d-lg-block">
+              <button
+                class="btn btn-dark dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Ordenar por
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Relevancia</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Mas nuevos</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Mayor precio</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Menor precio</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Alfabeticamente</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 d-flex justify-content-evenly d-lg-none">
+            <div class="dropdown">
+              <button
+                class="btn btn-dark dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Ordenar por
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Relevancia</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Mas nuevos</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Mayor precio</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Menor precio</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Alfabeticamente</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <button
+                class="btn btn-dark dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Filtrar por
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><h6 class="dropdown-header">Coleccion</h6></li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Attack on Titan</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Berserk</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Naruto</a
+                  >
+                </li>
+                <li><h6 class="dropdown-header">Categoria</h6></li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Seinen</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Shonen</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Terror</a
+                  >
+                </li>
+                <li><h6 class="dropdown-header">Precio</h6></li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Hasta $1000</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >$1000 a $3000</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Mas de $3000</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <!-- Fin resultado de busqueda -->
