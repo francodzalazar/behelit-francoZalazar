@@ -101,30 +101,21 @@ html {
 /* Fin paginador */
 /* Barra lateral */
 .article__lateral {
-  width: 90%;
-  padding-left: 20%;
+  padding-left: 8%;
 }
 .article__lateral__h3 {
   color: #2d3436;
-  font-size: 30px;
 }
 .article__lateral__h4 {
-  margin: 15px 0px;
   border-bottom: solid 1px #2d3436;
   color: #2d3436;
-  font-size: 20px;
 }
 .article__lateral__ul {
-  margin: 15px;
   list-style: none;
-}
-.article__lateral__ul__li {
-  margin: 15px;
 }
 .article__lateral__ul__li__a {
   text-decoration: none;
   color: #2d3436;
-  font-size: 20px;
   font-family: "Lora", serif;
 }
 /* Fin barra lateral */
@@ -213,38 +204,6 @@ html {
     transition: all 500ms;
   }
   /* Fin cards */
-  /* Barra lateral */
-  .main__section--lateral {
-    display: block;
-  }
-  .article__lateral {
-    width: 90%;
-    padding-left: 20%;
-  }
-  .article__lateral__h3 {
-    color: #2d3436;
-    font-size: 30px;
-  }
-  .article__lateral__h4 {
-    margin: 15px 0px;
-    border-bottom: solid 1px #2d3436;
-    color: #2d3436;
-    font-size: 20px;
-  }
-  .article__lateral__ul {
-    margin: 15px;
-    list-style: none;
-  }
-  .article__lateral__ul__li {
-    margin: 15px;
-  }
-  .article__lateral__ul__li__a {
-    text-decoration: none;
-    color: #2d3436;
-    font-size: 20px;
-    font-family: "Lora", serif;
-  }
-  /* Fin barra lateral */
   /* Informacion de empresa */
   .section__p{
     font-size: 1rem;
