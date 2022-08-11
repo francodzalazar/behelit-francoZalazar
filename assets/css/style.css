@@ -10,41 +10,7 @@ html {
   background-color: #ccc;
   font-family: "Times New Roman", Times, serif;
 }
-/* Grid principal */
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.3fr 2.8fr 0.6fr;
-  gap: 5px 0px;
-  grid-template-areas:
-    "header header header"
-    "main main main"
-    "footer footer footer";
-  height: 100vh;
-  overflow-x: hidden;
-}
-.header {
-  grid-area: header;
-}
-.main {
-  grid-area: main;
-}
-.footer {
-  grid-area: footer;
-}
-/* Logo*/
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: nowrap;
-  height: 100%;
-  background-color: #34495e;
-}
-.header__a {
-  position: sticky;
-  top: 0px;
-}
+/*Logo*/
 .logo {
   width: 70px;
 }
@@ -52,142 +18,52 @@ html {
   animation: heartBeat;
   animation-duration: 800ms;
 }
-.conteiner--logos {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 20%;
-  margin-right: 5%;
-  color: #d1d8e0;
+.header__button {
+  border: none;
+  margin-top: 2.5rem;
 }
-.shop {
-  width: 30px;
-}
-.shop:hover {
-  animation: heartBeat;
-  animation-duration: 800ms;
+.header__button:hover {
+  background-color: transparent;
+  border: none;
 }
 /* Fin logo */
 /* Inicio Nav */
-.nav {
-  display: none;
-  background-color: #34495e;
-  height: 40px;
-  margin-bottom: 10px;
-}
-.nav__ul {
-  text-align: center;
-}
-.nav__ul li {
-  font-size: 20px;
+.header__nav {
   font-family: "Lora", serif;
 }
-.nav__ul a {
-  text-decoration: none;
-  color: #d1d8e0;
+.header__nav__a {
+  color: #d1d8e0 !important;
+  font-family: "Lora", serif;
+}
+.header__nav__a:hover {
+  background-color: #2d3436;
 }
 /* Fin Nav */
 /* Informacion del sitio */
-.section {
-  min-height: 100%;
+.section__container--img {
+  background-image: url(../img/wallpaper-manga-2.jpg);
+  height: 75vh;
+  opacity: 0.8;
 }
-.section__container {
-  width: 100%;
-  margin: 0 auto;
-  background-image: url("../img/wallpaper-manga.jpg");
-  background-color: #34495e;
-}
-.section__container--bg {
-  height: 100%;
-  width: 75%;
-  margin: 0 auto;
-  background-color: #34495e;
-  color: #d1d8e0;
-  text-align: center;
-}
-.section__container--bg__h1 {
-  padding: 5px;
-  font-size: 48px;
+.section__container--text {
   font-family: "Libre Baskerville", serif;
-}
-.section__container--bg__p {
-  padding-bottom: 2%;
-  font-size: 12px;
-  font-family: "Libre Baskerville", serif;
-  animation: focus-in-expand-fwd 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 300ms
-    both;
+  color: #2d3436;
 }
 /* Fin informacion del sitio */
 /* Inicio productos */
-.section__container.products {
-  width: 40%;
-  margin: 20px auto;
-  background-image: url("../img/micro_carbon.png");
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-template-areas:
-    "article-h2"
-    "."
-    "."
-    "."
-    ".";
-  align-items: center;
-  justify-items: center;
-}
-.section__container__h2 {
-  grid-area: article-h2;
-  text-align: center;
+.section__h2 {
   color: #2d3436;
-  font-family: "Lora", serif;
-}
-.section__article {
-  margin-top: 15%;
-  background-color: #fff;
-  border: solid 1px black;
-}
-.section__article__img {
-  display: block;
-  height: auto;
-  width: 100%;
-  margin: 0 auto;
-  padding: 2px;
-}
-.section__article__h3 {
-  margin-top: 5px;
   text-align: center;
-  color: #2d3436;
-  font-size: 24px;
-  font-family: "Lora", serif;
+  font-family: "Libre Baskerville", serif;
 }
-.section__article__p {
-  margin-top: 10px;
-  text-align: center;
-  color: #2d3436;
-  font-size: 20px;
+.article--font {
   font-family: "Lora", serif;
+  color: #2d3436;
+}
+.btn--font {
+  font-family: "Libre Baskerville", serif;
 }
 /* Fin productos */
-/* Grid main cards*/
-.main--products {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.1fr 1fr 1fr 1fr;
-  gap: 0px 25px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "search"
-    "card"
-    "card"
-    "card";
-}
-.search {
-  grid-area: search;
-}
-.main__section--card {
-  grid-area: card;
-}
-/* Fin grid main */
 /* Resultado de busqueda */
 .container.search {
   display: flex;
@@ -391,11 +267,6 @@ html {
   flex-wrap: nowrap;
   width: 70%;
   margin: auto;
-}
-.section__h2 {
-  color: #2d3436;
-  text-align: center;
-  font-family: "Libre Baskerville", serif;
 }
 .section__p {
   color: #2d3436;
@@ -713,28 +584,3 @@ html {
 }
 /* Fin Responsive */
 /* Estilos Bootstrap */
-/* Logo + nav */
-.header__nav {
-  font-family: "Lora", serif;
-}
-/* Fin logo + nav */
-/* Informacion del sitio */
-.section__container--img {
-  background-image: url(../img/wallpaper-manga-2.jpg);
-  height: 75vh;
-  opacity: 0.8;
-}
-.section__container--text {
-  font-family: "Libre Baskerville", serif;
-  color: #2d3436;
-}
-/* Fin informacion del sitio */
-/* Productos */
-.article--font {
-  font-family: "Lora", serif;
-  color: #2d3436;
-}
-.btn--font {
-  font-family: "Libre Baskerville", serif;
-}
-/* Fin productos */
