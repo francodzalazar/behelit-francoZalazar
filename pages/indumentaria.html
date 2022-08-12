@@ -97,54 +97,157 @@
       <!-- Fin logo + nav-->
       <main class="row m-0 p-0">
         <!-- Resultado de busqueda -->
-        <div class="col-10 col-lg-12 d-flex justify-content-evenly my-3 p-0">
-          <h2 class="search__h2 text-center">
-            Se muestran los principales resultados para "INDUMENTARIA"
-          </h2>
-          <div class="dropdown">
-            <button
-              class="btn btn-dark dropdown-toggle"
-              type="button"
-              id="dropdownMenuButton"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Ordenar por
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li>
-                <a class="dropdown-item search__ul__li__a" href="#"
-                  >Relevancia</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item search__ul__li__a" href="#"
-                  >Mas nuevos</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item search__ul__li__a" href="#"
-                  >Mayor precio</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item search__ul__li__a" href="#"
-                  >Menor precio</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item search__ul__li__a" href="#"
-                  >Alfabeticamente</a
-                >
-              </li>
-            </ul>
+        <div class="container--search">
+          <div class="col-12 d-flex justify-content-evenly my-3 p-0">
+            <h2 class="search__h2 text-center">
+              Se muestran los principales resultados para "INDUMENTARIA"
+            </h2>
+            <div class="dropdown d-none d-lg-block">
+              <button
+                class="btn btn-dark dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Ordenar por
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Relevancia</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Mas nuevos</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Mayor precio</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Menor precio</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Alfabeticamente</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 d-flex justify-content-evenly d-lg-none">
+            <div class="dropdown">
+              <button
+                class="btn btn-dark dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Ordenar por
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Relevancia</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Mas nuevos</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Mayor precio</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Menor precio</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Alfabeticamente</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <button
+                class="btn btn-dark dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Filtrar por
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><h6 class="dropdown-header">Coleccion</h6></li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Attack on Titan</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Berserk</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Naruto</a
+                  >
+                </li>
+                <li><h6 class="dropdown-header">Categoria</h6></li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Seinen</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Shonen</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Terror</a
+                  >
+                </li>
+                <li><h6 class="dropdown-header">Precio</h6></li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Hasta $1000</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >$1000 a $3000</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item search__ul__li__a" href="#"
+                    >Mas de $3000</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <!-- Fin resultado de busqueda -->
         <!-- Cards -->
-        <section class="col-12 col-lg-8 order-1 p-0">
+        <section class="col-12 col-lg-8 col-xl-10 order-1 p-0">
           <div class="row justify-content-evenly m-0 p-0">
-            <article class="col-10 col-md-5 col-lg-2 p-0">
+            <article class="col-10 col-md-5 col-lg-5 col-xl-2 p-0">
               <div class="card w-100 text-center my-2 border-2">
                 <img
                   src="../assets/img/products/indumentaria/attack-on-titan/buzo-aot.jpg"
@@ -162,7 +265,7 @@
                 </div>
               </div>
             </article>
-            <article class="col-10 col-md-5 col-lg-2 p-0">
+            <article class="col-10 col-md-5 col-lg-5 col-xl-2 p-0">
               <div class="card w-100 text-center my-2 border-2">
                 <img
                   src="../assets/img/products/indumentaria/attack-on-titan/remera-aot.jpg"
@@ -180,7 +283,7 @@
                 </div>
               </div>
             </article>
-            <article class="col-10 col-md-5 col-lg-2 p-0">
+            <article class="col-10 col-md-5 col-lg-5 col-xl-2 p-0">
               <div class="card w-100 text-center my-2 border-2">
                 <img
                   src="../assets/img/products/indumentaria/naruto/sweater-naruto.jpeg"
@@ -198,7 +301,7 @@
                 </div>
               </div>
             </article>
-            <article class="col-10 col-md-5 col-lg-2 p-0">
+            <article class="col-10 col-md-5 col-lg-5 col-xl-2 p-0">
               <div class="card w-100 text-center my-2 border-2">
                 <img
                   src="../assets/img/products/indumentaria/totoro/remera-totoro.jpg"
@@ -218,7 +321,7 @@
             </article>
           </div>
           <div class="row justify-content-evenly m-0 p-0">
-            <article class="col-10 col-md-5 col-lg-2 p-0">
+            <article class="col-10 col-md-5 col-lg-5 col-xl-2 p-0">
               <div class="card w-100 text-center my-2 border-2">
                 <img
                   src="../assets/img/products/indumentaria/attack-on-titan/buzo-aot.jpg"
@@ -236,7 +339,7 @@
                 </div>
               </div>
             </article>
-            <article class="col-10 col-md-5 col-lg-2 p-0">
+            <article class="col-10 col-md-5 col-lg-5 col-xl-2 p-0">
               <div class="card w-100 text-center my-2 border-2">
                 <img
                   src="../assets/img/products/indumentaria/attack-on-titan/remera-aot.jpg"
@@ -254,7 +357,7 @@
                 </div>
               </div>
             </article>
-            <article class="col-10 col-md-5 col-lg-2 p-0">
+            <article class="col-10 col-md-5 col-lg-5 col-xl-2 p-0">
               <div class="card w-100 text-center my-2 border-2">
                 <img
                   src="../assets/img/products/indumentaria/naruto/sweater-naruto.jpeg"
@@ -272,7 +375,7 @@
                 </div>
               </div>
             </article>
-            <article class="col-10 col-md-5 col-lg-2 p-0">
+            <article class="col-10 col-md-5 col-lg-5 col-xl-2 p-0">
               <div class="card w-100 text-center my-2 border-2">
                 <img
                   src="../assets/img/products/indumentaria/totoro/remera-totoro.jpg"
@@ -292,7 +395,7 @@
             </article>
           </div>
           <div class="row justify-content-evenly m-0 p-0">
-            <article class="col-10 col-md-5 col-lg-2 p-0">
+            <article class="col-10 col-md-5 col-lg-5 col-xl-2 p-0">
               <div class="card w-100 text-center my-2 border-2">
                 <img
                   src="../assets/img/products/indumentaria/attack-on-titan/buzo-aot.jpg"
@@ -310,7 +413,7 @@
                 </div>
               </div>
             </article>
-            <article class="col-10 col-md-5 col-lg-2 p-0">
+            <article class="col-10 col-md-5 col-lg-5 col-xl-2 p-0">
               <div class="card w-100 text-center my-2 border-2">
                 <img
                   src="../assets/img/products/indumentaria/attack-on-titan/remera-aot.jpg"
@@ -328,7 +431,7 @@
                 </div>
               </div>
             </article>
-            <article class="col-10 col-md-5 col-lg-2 p-0">
+            <article class="col-10 col-md-5 col-lg-5 col-xl-2 p-0">
               <div class="card w-100 text-center my-2 border-2">
                 <img
                   src="../assets/img/products/indumentaria/naruto/sweater-naruto.jpeg"
@@ -346,7 +449,7 @@
                 </div>
               </div>
             </article>
-            <article class="col-10 col-md-5 col-lg-2 p-0">
+            <article class="col-10 col-md-5 col-lg-5 col-xl-2 p-0">
               <div class="card w-100 text-center my-2 border-2">
                 <img
                   src="../assets/img/products/indumentaria/totoro/remera-totoro.jpg"
@@ -399,50 +502,50 @@
         </section>
         <!-- Fin cards -->
         <!-- Barra lateral -->
-        <section class="d-none d-lg-block col-lg-4 order-0 p-0">
+        <section class="d-none d-lg-block col-lg-4 col-xl-2 order-0 p-0">
           <article>
             <div class="article__lateral">
-              <h3 class="article__lateral__h3">Filtrar por</h3>
-              <h4 class="article__lateral__h4">Coleccion</h4>
+              <h3 class="article__lateral__h3 m-3">Filtrar por</h3>
+              <h4 class="article__lateral__h4 m-2">Coleccion</h4>
               <ul class="article__lateral__ul">
-                <li class="article__lateral__ul__li">
-                  <a href="*" class="article__lateral__ul__li__a"
+                <li class="article__lateral__ul__li my-4">
+                  <a href="*" class="article__lateral__ul__li__a p-1 fs-5"
                     >Attack on Titan</a
                   >
                 </li>
-                <li class="article__lateral__ul__li">
-                  <a href="*" class="article__lateral__ul__li__a">Naruto</a>
+                <li class="article__lateral__ul__li my-4">
+                  <a href="*" class="article__lateral__ul__li__a p-1 fs-5">Naruto</a>
                 </li>
-                <li class="article__lateral__ul__li">
-                  <a href="*" class="article__lateral__ul__li__a">Berserk</a>
+                <li class="article__lateral__ul__li my-4">
+                  <a href="*" class="article__lateral__ul__li__a p-1 fs-5">Berserk</a>
                 </li>
               </ul>
               <h4 class="article__lateral__h4">Categoria</h4>
               <ul class="article__lateral__ul">
-                <li class="article__lateral__ul__li">
-                  <a href="*" class="article__lateral__ul__li__a">Buzo</a>
+                <li class="article__lateral__ul__li my-4i">
+                  <a href="*" class="article__lateral__ul__li__a p-1 fs-5">Buzo</a>
                 </li>
-                <li class="article__lateral__ul__li">
-                  <a href="*" class="article__lateral__ul__li__a">Remera</a>
+                <li class="article__lateral__ul__li my-4">
+                  <a href="*" class="article__lateral__ul__li__a p-1 fs-5">Remera</a>
                 </li>
-                <li class="article__lateral__ul__li">
-                  <a href="*" class="article__lateral__ul__li__a">Sweater</a>
+                <li class="article__lateral__ul__li my-4">
+                  <a href="*" class="article__lateral__ul__li__a p-1 fs-5">Sweater</a>
                 </li>
               </ul>
               <h4 class="article__lateral__h4">Precio</h4>
-              <ul class="article__lateral__ul">
-                <li class="article__lateral__ul__li">
-                  <a href="*" class="article__lateral__ul__li__a"
+              <ul class="article__lateral__ul ">
+                <li class="article__lateral__ul__li my-4">
+                  <a href="*" class="article__lateral__ul__li__a p-1 fs-5"
                     >Hasta $1000</a
                   >
                 </li>
-                <li class="article__lateral__ul__li">
-                  <a href="*" class="article__lateral__ul__li__a"
+                <li class="article__lateral__ul__li my-4">
+                  <a href="*" class="article__lateral__ul__li__a p-1 fs-5"
                     >$1000 a $3000</a
                   >
                 </li>
-                <li class="article__lateral__ul__li">
-                  <a href="*" class="article__lateral__ul__li__a"
+                <li class="article__lateral__ul__li my-4">
+                  <a href="*" class="article__lateral__ul__li__a p-1 fs-5"
                     >Mas de $3000</a
                   >
                 </li>
