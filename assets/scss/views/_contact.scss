@@ -1,0 +1,29 @@
+/* Formulario de contacto */
+.section__form {
+  font-family: $fuente-principal;
+}
+.section__h1--form {
+  color: $color-oscuro;
+}
+.section__form__input {
+  width: 100%;
+  margin: 10% 0px;
+  padding: 7%;
+}
+.section__form__textarea {
+  resize: none;
+}
+/* Fin formulario de contacto */
+/* Informacion de contacto */
+.section__p {
+  color: $color-oscuro;
+  font-size: 0.8rem;
+  font-family: $fuente-principal;
+}
+.section__iframe {
+  width: 85%;
+  height: 40%;
+  margin: 2%;
+  border: 0;
+}
+/* Fin informacion de contacto */

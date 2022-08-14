@@ -1,0 +1,49 @@
+/* Resultado de busqueda */
+.search__h2 {
+  color: $color-oscuro;
+  font-family: $fuente-principal;
+}
+.filter--responsive {
+  position: relative;
+  right: 40%;
+}
+/* Cards */
+.section__card__h3 {
+  color: $color-oscuro;
+  font-family: $fuente-secundaria;
+}
+.section__card__p {
+  color: $color-oscuro;
+  font-family: $fuente-secundaria;
+}
+/* Fin cards */
+/* Paginador */
+.section__pagination__ul__li__a {
+  color: $color-oscuro;
+  font-family: $fuente-secundaria;
+}
+.active .section__pagination__ul__li__a {
+  background-color: $color-claro;
+  border-color: $color-claro;
+}
+/* Fin paginador */
+/* Barra lateral */
+.article__lateral {
+  padding-left: 8%;
+}
+.article__lateral__h3 {
+  color: $color-oscuro;
+}
+.article__lateral__h4 {
+  border-bottom: solid 1px $color-oscuro;
+  color: $color-oscuro;
+}
+.article__lateral__ul {
+  list-style: none;
+}
+.article__lateral__ul__li__a {
+  text-decoration: none;
+  color: $color-oscuro;
+  font-family: $fuente-secundaria;
+}
+/* Fin barra lateral */

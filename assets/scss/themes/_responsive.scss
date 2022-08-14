@@ -1,0 +1,49 @@
+/* Responsive*/
+/* Vista Desktop */
+@media (min-width: 1024px) {
+  /* Header*/
+  .logo {
+    width: 100px;
+    margin-left: 30px;
+  }
+  .logo:hover {
+    animation: heartBeat;
+    animation-duration: 800ms;
+  }
+  .header__button:hover {
+    background-color: transparent;
+    border: none;
+  }
+  /* Fin header */
+  /* Inicio Nav */
+  .header__nav__a:hover {
+    background-color: $color-oscuro;
+  }
+  /* Fin Nav */
+  /* Resultado de busqueda */
+  .filter--responsive {
+    display: none;
+  }
+  /* Cards */
+  .card:hover {
+    box-shadow: 0px 4px 14px 2px rgba(143, 136, 136, 0.59);
+    -webkit-box-shadow: 0px 4px 14px 2px rgba(143, 136, 136, 0.59);
+    -moz-box-shadow: 0px 4px 14px 2px rgba(143, 136, 136, 0.59);
+    transform: scale(1.05, 1.05);
+    transition: all 500ms;
+  }
+  /* Fin cards */
+  /* Informacion de empresa */
+  .section__p {
+    font-size: 1rem;
+  }
+  /* Fin Informacion de empresa */
+  /* Inicio footer */
+  .footer {
+    margin-top: 2%;
+  }
+  .social {
+    width: 15%;
+  }
+}
+/* Fin Responsive */
