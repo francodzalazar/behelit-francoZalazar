@@ -1,169 +1,173 @@
+/* Fuentes */
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lora:ital,wght@1,600&display=swap");
 /* Reglas generales */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
-
+  box-sizing: border-box;
+}
 html {
-  background-color: #d1d8e0 !important;
-  font-family: "Times New Roman", Times, serif; }
-
+  background-color: #ccc;
+  font-family: "Times New Roman", Times, serif;
+}
 /*Logo*/
 .logo {
-  width: 70px; }
-
+  width: 70px;
+}
 .header__button {
   border: none;
-  margin-top: 2.5rem; }
-
+  margin-top: 2.5rem;
+}
 /* Fin logo */
 /* Inicio Nav */
 .header__nav {
-  font-family: "Lora", serif; }
-
+  font-family: "Lora", serif;
+}
 .header__nav__a {
   color: #d1d8e0 !important;
-  font-family: "Lora", serif; }
-
+  font-family: "Lora", serif;
+}
 /* Fin Nav */
 /* Informacion del sitio */
 .section__container--animation {
-  animation: focus-in-expand-fwd 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 300ms both; }
-
+  animation: focus-in-expand-fwd 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 300ms
+    both;
+}
 @keyframes focus-in-expand-fwd {
   0% {
     letter-spacing: -0.5em;
     transform: translateZ(-800px);
     filter: blur(12px);
-    opacity: 0; }
+    opacity: 0;
+  }
   100% {
     transform: translateZ(0);
     filter: blur(0);
-    opacity: 1; } }
-
+    opacity: 1;
+  }
+}
 .section__container--img {
   background-image: url(../img/wallpaper-manga-2.jpg);
   height: 75vh;
-  opacity: 0.8; }
-
+  opacity: 0.8;
+}
 .section__container--text {
   font-family: "Libre Baskerville", serif;
-  color: #2d3436; }
-
+  color: #2d3436;
+}
 /* Fin informacion del sitio */
 /* Inicio productos */
 .section__h2 {
   color: #2d3436;
   text-align: center;
-  font-family: "Libre Baskerville", serif; }
-
+  font-family: "Libre Baskerville", serif;
+}
 .article--font {
   font-family: "Lora", serif;
-  color: #2d3436; }
-
+  color: #2d3436;
+}
 .btn--font {
-  font-family: "Libre Baskerville", serif; }
-
+  font-family: "Libre Baskerville", serif;
+}
 /* Fin productos */
 /* Resultado de busqueda */
 .search__h2 {
   color: #2d3436;
-  font-family: "Lora", serif; }
-
+  font-family: "Lora", serif;
+}
 .filter--responsive {
   position: relative;
-  right: 40%; }
-
+  right: 40%;
+}
 /* Cards */
 .section__card__h3 {
   color: #2d3436;
-  font-family: "Lora", serif; }
-
+  font-family: "Lora", serif;
+}
 .section__card__p {
   color: #2d3436;
-  font-family: "Lora", serif; }
-
+  font-family: "Lora", serif;
+}
 /* Fin cards */
 /* Paginador */
 .section__pagination__ul__li__a {
   color: #2d3436;
-  font-family: "Lora", serif; }
-
+  font-family: "Lora", serif;
+}
 .active .section__pagination__ul__li__a {
   background-color: #2d3436 !important;
-  border-color: #2d3436 !important; }
-
+  border-color: #2d3436 !important;
+}
 /* Fin paginador */
 /* Barra lateral */
 .article__lateral {
-  padding-left: 8%; }
-
+  padding-left: 8%;
+}
 .article__lateral__h3 {
-  color: #2d3436; }
-
+  color: #2d3436;
+}
 .article__lateral__h4 {
   border-bottom: solid 1px #2d3436;
-  color: #2d3436; }
-
+  color: #2d3436;
+}
 .article__lateral__ul {
-  list-style: none; }
-
+  list-style: none;
+}
 .article__lateral__ul__li__a {
   text-decoration: none;
   color: #2d3436;
-  font-family: "Lora", serif; }
-
+  font-family: "Lora", serif;
+}
 /* Fin barra lateral */
 /* Formulario de contacto */
 .section__form {
-  font-family: "Libre Baskerville", serif; }
-
+  font-family: "Libre Baskerville", serif;
+}
 .section__h1--form {
-  color: #2d3436; }
-
+  color: #2d3436;
+}
 .section__form__input {
   width: 100%;
   margin: 10% 0px;
-  padding: 7%; }
-
+  padding: 7%;
+}
 .section__form__textarea {
-  resize: none; }
-
+  resize: none;
+}
 /* Fin formulario de contacto */
 /* Informacion de contacto */
 .section__p {
   color: #2d3436;
   font-size: 0.8rem;
-  font-family: "Libre Baskerville", serif; }
-
+  font-family: "Libre Baskerville", serif;
+}
 .section__iframe {
   width: 85%;
   height: 40%;
   margin: 2%;
-  border: 0; }
-
+  border: 0;
+}
 /* Fin informacion de contacto */
 /* Informacion de empresa */
 .section__h5 {
   color: #2d3436;
-  font-family: "Libre Baskerville", serif; }
-
+  font-family: "Libre Baskerville", serif;
+}
 /* Fin informacion de empresa */
 /* Inicio footer */
 .logo.logo--footer {
-  margin-top: 20px; }
-
+  margin-top: 20px;
+}
 .footer__h4 {
   color: #d1d8e0;
-  font-family: "Lora", serif; }
-
+  font-family: "Lora", serif;
+}
 .footer__a {
-  margin: 0 2%; }
-
+  margin: 0 2%;
+}
 .social {
-  width: 25%; }
-
+  width: 25%;
+}
 /* Fin Footer */
 /* Responsive*/
 /* Vista Desktop */
@@ -171,37 +175,46 @@ html {
   /* Logo*/
   .logo {
     width: 100px;
-    margin-left: 30px; }
+    margin-left: 30px;
+  }
   .logo:hover {
     animation: heartBeat;
-    animation-duration: 800ms; }
+    animation-duration: 800ms;
+  }
   .header__button:hover {
     background-color: transparent;
-    border: none; }
+    border: none;
+  }
   /* Fin logo */
   /* Inicio Nav */
   .header__nav__a:hover {
-    background-color: #2d3436; }
+    background-color: #2d3436;
+  }
   /* Fin Nav */
   /* Resultado de busqueda */
   .filter--responsive {
-    display: none; }
+    display: none;
+  }
   /* Cards */
   .card:hover {
     box-shadow: 0px 4px 14px 2px rgba(143, 136, 136, 0.59);
     -webkit-box-shadow: 0px 4px 14px 2px rgba(143, 136, 136, 0.59);
     -moz-box-shadow: 0px 4px 14px 2px rgba(143, 136, 136, 0.59);
     transform: scale(1.05, 1.05);
-    transition: all 500ms; }
+    transition: all 500ms;
+  }
   /* Fin cards */
   /* Informacion de empresa */
-  .section__p {
-    font-size: 1rem; }
+  .section__p{
+    font-size: 1rem;
+  }
   /* Fin Informacion de empresa */
   /* Inicio footer */
   .footer {
-    margin-top: 2%; }
+    margin-top: 2%;
+  }
   .social {
-    width: 15%; } }
-
+    width: 15%;
+  }
+}
 /* Fin Responsive */
