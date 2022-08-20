@@ -1,6 +1,6 @@
 /* Inicio footer */
 .logo.logo--footer {
-  margin-top: 20px;
+  margin-top: map-get($tamanios, 20)
 }
 .footer__h4 {
   color: $color-claro;

@@ -11,6 +11,9 @@ html {
   background-color: #d1d8e0 !important;
   font-family: "Times New Roman", Times, serif; }
 
+.container--background {
+  background-color: #f1f0f0 !important; }
+
 /*Animaciones*/
 @keyframes focus-in-expand-fwd {
   0% {

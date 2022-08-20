@@ -1,6 +1,6 @@
 /*Header*/
 .logo {
-  width: 70px;
+  width: map-get($tamanios, 70)
 }
 .header__button {
   border: none;

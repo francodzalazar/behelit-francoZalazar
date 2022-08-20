@@ -3,8 +3,8 @@
 @media (min-width: 1024px) {
   /* Header*/
   .logo {
-    width: 100px;
-    margin-left: 30px;
+    width: map-get($tamanios, 100);
+    margin-left: map-get($tamanios, 30)
   }
   .logo:hover {
     animation: heartBeat;
