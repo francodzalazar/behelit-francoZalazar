@@ -99,11 +99,7 @@ html {
   right: 40%; }
 
 /* Cards */
-.section__card__h3 {
-  color: #2d3436 !important;
-  font-family: "Lora", serif; }
-
-.section__card__p {
+.section__card__h3, .section__card__p {
   color: #2d3436 !important;
   font-family: "Lora", serif; }
 
@@ -122,12 +118,12 @@ html {
 .article__lateral {
   padding-left: 8%; }
 
-.article__lateral__h3 {
+.article__lateral__h3, .article__lateral__h4 {
+  font-family: "Libre Baskerville", serif;
   color: #2d3436 !important; }
 
 .article__lateral__h4 {
-  border-bottom: solid 1px #2d3436 !important;
-  color: #2d3436 !important; }
+  border-bottom: solid 1px #2d3436 !important; }
 
 .article__lateral__ul {
   list-style: none; }

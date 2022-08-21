@@ -13,8 +13,7 @@
   font-family: $fuente-secundaria;
 }
 .section__card__p {
-  color: $color-oscuro;
-  font-family: $fuente-secundaria;
+  @extend .section__card__h3;
 }
 /* Fin cards */
 /* Paginador */
@@ -32,11 +31,11 @@
   padding-left: 8%;
 }
 .article__lateral__h3 {
-  color: $color-oscuro;
+  @include font-color($fuente-principal, $color-oscuro);
 }
 .article__lateral__h4 {
+  @extend .article__lateral__h3;
   border-bottom: solid 1px $color-oscuro;
-  color: $color-oscuro;
 }
 .article__lateral__ul {
   list-style: none;
