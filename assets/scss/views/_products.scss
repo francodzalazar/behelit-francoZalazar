@@ -1,16 +1,10 @@
 /* Resultado de busqueda */
 .search__h2 {
-  color: $color-oscuro;
-  font-family: $fuente-principal;
-}
-.filter--responsive {
-  position: relative;
-  right: 40%;
+  @include font-color($fuente-principal, $color-oscuro);
 }
 /* Cards */
 .section__card__h3 {
-  color: $color-oscuro;
-  font-family: $fuente-secundaria;
+  @include font-color($fuente-secundaria, $color-oscuro);
 }
 .section__card__p {
   @extend .section__card__h3;
@@ -18,8 +12,7 @@
 /* Fin cards */
 /* Paginador */
 .section__pagination__ul__li__a {
-  color: $color-oscuro;
-  font-family: $fuente-secundaria;
+  @include font-color($fuente-secundaria, $color-oscuro);
 }
 .active .section__pagination__ul__li__a {
   background-color: $color-claro;
@@ -42,7 +35,6 @@
 }
 .article__lateral__ul__li__a {
   text-decoration: none;
-  color: $color-oscuro;
-  font-family: $fuente-secundaria;
+  @include font-color($fuente-secundaria, $color-oscuro);
 }
 /* Fin barra lateral */

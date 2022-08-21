@@ -70,20 +70,17 @@ html {
   height: 75vh;
   opacity: 0.8; }
 
-.section__container--text {
+.section__container--text, .section__h2, .article--font {
   font-family: "Libre Baskerville", serif;
   color: #2d3436 !important; }
 
 /* Fin informacion del sitio */
 /* Inicio productos */
 .section__h2 {
-  color: #2d3436 !important;
-  text-align: center;
-  font-family: "Libre Baskerville", serif; }
+  text-align: center; }
 
 .article--font {
-  font-family: "Lora", serif;
-  color: #2d3436 !important; }
+  font-family: "Lora", serif; }
 
 .btn--font {
   font-family: "Libre Baskerville", serif; }
@@ -91,23 +88,19 @@ html {
 /* Fin productos */
 /* Resultado de busqueda */
 .search__h2 {
-  color: #2d3436 !important;
-  font-family: "Libre Baskerville", serif; }
-
-.filter--responsive {
-  position: relative;
-  right: 40%; }
+  font-family: "Libre Baskerville", serif;
+  color: #2d3436 !important; }
 
 /* Cards */
 .section__card__h3, .section__card__p {
-  color: #2d3436 !important;
-  font-family: "Lora", serif; }
+  font-family: "Lora", serif;
+  color: #2d3436 !important; }
 
 /* Fin cards */
 /* Paginador */
 .section__pagination__ul__li__a {
-  color: #2d3436 !important;
-  font-family: "Lora", serif; }
+  font-family: "Lora", serif;
+  color: #2d3436 !important; }
 
 .active .section__pagination__ul__li__a {
   background-color: #d1d8e0 !important;
@@ -130,12 +123,12 @@ html {
 
 .article__lateral__ul__li__a {
   text-decoration: none;
-  color: #2d3436 !important;
-  font-family: "Lora", serif; }
+  font-family: "Lora", serif;
+  color: #2d3436 !important; }
 
 /* Fin barra lateral */
 /* Formulario de contacto */
-.section__form {
+.section__form, .section__h1--form, .section__form__input, .section__form__textarea {
   font-family: "Libre Baskerville", serif; }
 
 .section__h1--form {
@@ -152,9 +145,9 @@ html {
 /* Fin formulario de contacto */
 /* Informacion de contacto */
 .section__p {
+  font-family: "Libre Baskerville", serif;
   color: #2d3436 !important;
-  font-size: 0.8rem;
-  font-family: "Libre Baskerville", serif; }
+  font-size: 0.8rem; }
 
 .section__iframe {
   width: 85%;
@@ -165,8 +158,8 @@ html {
 /* Fin informacion de contacto */
 /* Informacion de empresa */
 .section__h5 {
-  color: #2d3436 !important;
-  font-family: "Libre Baskerville", serif; }
+  font-family: "Libre Baskerville", serif;
+  color: #2d3436 !important; }
 
 /* Fin informacion de empresa */
 /* Responsive*/

@@ -10,19 +10,17 @@
   opacity: 0.8;
 }
 .section__container--text {
-  font-family: $fuente-principal;
-  color: $color-oscuro;
+  @include font-color($fuente-principal, $color-oscuro);
 }
 /* Fin informacion del sitio */
 /* Inicio productos */
 .section__h2 {
-  color: $color-oscuro;
+  @extend .section__container--text;
   text-align: center;
-  font-family: $fuente-principal;
 }
 .article--font {
+  @extend .section__container--text;
   font-family: $fuente-secundaria;
-  color: $color-oscuro;
 }
 .btn--font {
   font-family: $fuente-principal;

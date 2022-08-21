@@ -3,22 +3,24 @@
   font-family: $fuente-principal;
 }
 .section__h1--form {
+  @extend .section__form;
   color: $color-oscuro;
 }
 .section__form__input {
+  @extend .section__form;
   width: 100%;
   margin: 10% 0px;
   padding: 7%;
 }
 .section__form__textarea {
+  @extend .section__form;
   resize: none;
 }
 /* Fin formulario de contacto */
 /* Informacion de contacto */
 .section__p {
-  color: $color-oscuro;
+  @include font-color($fuente-principal, $color-oscuro);
   font-size: 0.8rem;
-  font-family: $fuente-principal;
 }
 .section__iframe {
   width: 85%;

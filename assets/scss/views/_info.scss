@@ -1,6 +1,5 @@
 /* Informacion de empresa */
 .section__h5 {
-  color: $color-oscuro;
-  font-family: $fuente-principal;
+  @include font-color($fuente-principal, $color-oscuro);
 }
 /* Fin informacion de empresa */
