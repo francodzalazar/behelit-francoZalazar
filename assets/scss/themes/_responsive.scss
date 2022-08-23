@@ -1,4 +1,12 @@
 /* Responsive*/
+@media (min-width: 576px) {
+  .container--social{
+    margin-top: 2rem;
+  }
+  .social {
+    width: 25%;
+  }
+}
 /* Vista Desktop */
 @media (min-width: 1024px) {
   /* Header*/
@@ -43,7 +51,7 @@
     margin-top: 2%;
   }
   .social {
-    width: 15%;
+    width: 18%;
   }
 }
 /* Fin Responsive */
