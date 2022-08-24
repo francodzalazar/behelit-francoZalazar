@@ -69,8 +69,8 @@ html {
   animation: focus-in-expand-fwd 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 300ms both; }
 
 .section__container--img {
-  background-image: url(../img/wallpaper-manga-2.jpg);
-  height: 75vh;
+  background-image: url(../img/wallpaper-manga-w480.png);
+  height: 50vh;
   opacity: 0.8; }
 
 .section__container--text, .section__h2, .article--font {
@@ -164,13 +164,30 @@ html {
   font-family: "Libre Baskerville", serif;
   color: #2d3436 !important; }
 
+.section__container--img--nosotros {
+  background-image: url(../img/nosotros-w480.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh; }
+
 /* Fin informacion de empresa */
 /* Responsive*/
 @media (min-width: 576px) {
+  /* Informacion del sitio */
+  .section__container--img {
+    background-image: url(../img/wallpaper-manga-w960.png);
+    height: 75vh; }
+  /* Fin informacion del sitio */
   .container--social {
     margin-top: 2rem; }
   .social {
-    width: 25%; } }
+    width: 25%; }
+  /* Informacion de empresa */
+  .section__container--img--nosotros {
+    background-image: url(../img/nosotros-w960.png);
+    height: 75vh; }
+  /* Fin Informacion de empresa */ }
 
 /* Vista Desktop */
 @media (min-width: 1024px) {
@@ -189,6 +206,13 @@ html {
   .header__nav__a:hover {
     background-color: #2d3436 !important; }
   /* Fin Nav */
+  /* Informacion del sitio */
+  .section__container--img {
+    background-image: url(../img/wallpaper-manga-w1920.png);
+    background-position: center;
+    background-size: cover;
+    height: 80vh; }
+  /* Fin informacion del sitio */
   /* Resultado de busqueda */
   .filter--responsive {
     display: none; }
@@ -203,6 +227,9 @@ html {
   /* Informacion de empresa */
   .section__p {
     font-size: 1rem; }
+  .section__container--img--nosotros {
+    background-image: url(../img/nosotros-w1024.png);
+    height: 80vh; }
   /* Fin Informacion de empresa */
   /* Inicio footer */
   .footer {

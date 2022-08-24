@@ -1,18 +1,30 @@
 /* Responsive*/
 @media (min-width: 576px) {
-  .container--social{
+  /* Informacion del sitio */
+  .section__container--img {
+    background-image: url(../img/wallpaper-manga-w960.png);
+    height: 75vh;
+  }
+  /* Fin informacion del sitio */
+  .container--social {
     margin-top: 2rem;
   }
   .social {
     width: 25%;
   }
+  /* Informacion de empresa */
+  .section__container--img--nosotros {
+    background-image: url(../img/nosotros-w960.png);
+    height: 75vh;
+  }
+  /* Fin Informacion de empresa */
 }
 /* Vista Desktop */
 @media (min-width: 1024px) {
   /* Header*/
   .logo {
     width: map-get($tamanios, 100);
-    margin-left: map-get($tamanios, 30)
+    margin-left: map-get($tamanios, 30);
   }
   .logo:hover {
     animation: heartBeat;
@@ -28,6 +40,14 @@
     background-color: $color-oscuro;
   }
   /* Fin Nav */
+  /* Informacion del sitio */
+  .section__container--img {
+    background-image: url(../img/wallpaper-manga-w1920.png);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+  }
+  /* Fin informacion del sitio */
   /* Resultado de busqueda */
   .filter--responsive {
     display: none;
@@ -44,6 +64,10 @@
   /* Informacion de empresa */
   .section__p {
     font-size: 1rem;
+  }
+  .section__container--img--nosotros {
+    background-image: url(../img/nosotros-w1024.png);
+    height: 80vh;
   }
   /* Fin Informacion de empresa */
   /* Inicio footer */

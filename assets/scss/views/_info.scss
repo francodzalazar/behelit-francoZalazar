@@ -2,4 +2,11 @@
 .section__h5 {
   @include font-color($fuente-principal, $color-oscuro);
 }
+.section__container--img--nosotros {
+  background-image: url(../img/nosotros-w480.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
 /* Fin informacion de empresa */
