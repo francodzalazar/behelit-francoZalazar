@@ -22,6 +22,9 @@
   @extend .section__container--text;
   font-family: $fuente-secundaria;
 }
+.card-img-top{
+  height: 315px !important;
+}
 .btn--font {
   font-family: $fuente-principal;
 }
