@@ -53,13 +53,11 @@ html {
   font-family: "Lora", serif; }
 
 .footer__a {
-  margin: 0 2%; }
+  color: #d1d8e0 !important;
+  font-size: 2rem; }
 
 .container--social {
   margin-top: 0; }
-
-.social {
-  width: 12%; }
 
 /* Fin Footer */
 /*Buttons*/
@@ -85,7 +83,7 @@ html {
 .article--font {
   font-family: "Lora", serif; }
 
-.card-img-top {
+.card-img-index {
   height: 315px !important; }
 
 .btn--font {
@@ -237,6 +235,8 @@ html {
   /* Inicio footer */
   .footer {
     margin-top: 2%; }
+  .footer__h4 {
+    text-align: center !important; }
   .social {
     width: 18%; } }
 
