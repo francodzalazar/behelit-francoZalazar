@@ -9,6 +9,10 @@
 .section__card__p {
   @extend .section__card__h3;
 }
+.section__card__p--gray {
+  @extend .section__card__h3;
+  color: $color-gris;
+}
 /* Fin cards */
 /* Paginador */
 .section__pagination__ul__li__a {
