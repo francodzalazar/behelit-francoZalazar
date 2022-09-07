@@ -8,7 +8,7 @@
   box-sizing: border-box; }
 
 html {
-  background-color: #d1d8e0 !important;
+  background-color: #f9f9f9 !important;
   font-family: "Times New Roman", Times, serif; }
 
 .container--background {
@@ -41,7 +41,7 @@ html {
   font-family: "Lora", serif; }
 
 .header__nav__a {
-  color: #d1d8e0 !important; }
+  color: #f9f9f9 !important; }
 
 /* Fin Nav */
 /* Inicio footer */
@@ -49,11 +49,11 @@ html {
   margin-top: 20px; }
 
 .footer__h4 {
-  color: #d1d8e0 !important;
+  color: #f9f9f9 !important;
   font-family: "Lora", serif; }
 
 .footer__a {
-  color: #d1d8e0 !important;
+  color: #f9f9f9 !important;
   font-size: 2rem; }
 
 .container--social {
@@ -67,17 +67,19 @@ html {
   animation: focus-in-expand-fwd 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 300ms both; }
 
 .section__container--img {
-  background-image: url(../img/wallpaper-manga-w480.png);
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/wallpaper-manga-w480.png);
   height: 50vh;
   opacity: 0.8; }
 
-.section__container--text, .section__h2, .article--font {
+.section__container--text {
   font-family: "Libre Baskerville", serif;
-  color: #2d3436 !important; }
+  color: #f9f9f9 !important; }
 
 /* Fin informacion del sitio */
 /* Inicio productos */
-.section__h2 {
+.section__h2, .article--font {
+  font-family: "Libre Baskerville", serif;
+  color: #2d3436 !important;
   text-align: center; }
 
 .article--font {
@@ -110,8 +112,8 @@ html {
   color: #2d3436 !important; }
 
 .active .section__pagination__ul__li__a {
-  background-color: #d1d8e0 !important;
-  border-color: #d1d8e0 !important; }
+  background-color: #f9f9f9 !important;
+  border-color: #f9f9f9 !important; }
 
 /* Fin paginador */
 /* Barra lateral */
@@ -180,7 +182,7 @@ html {
 @media (min-width: 576px) {
   /* Informacion del sitio */
   .section__container--img {
-    background-image: url(../img/wallpaper-manga-w960.png);
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/wallpaper-manga-w960.png);
     height: 75vh; }
   /* Fin informacion del sitio */
   .container--social {
@@ -212,7 +214,7 @@ html {
   /* Fin Nav */
   /* Informacion del sitio */
   .section__container--img {
-    background-image: url(../img/wallpaper-manga-w1920.png);
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/wallpaper-manga-w1920.png);
     background-position: center;
     background-size: cover;
     height: 80vh; }

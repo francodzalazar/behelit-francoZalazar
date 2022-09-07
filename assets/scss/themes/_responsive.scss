@@ -2,7 +2,7 @@
 @media (min-width: 576px) {
   /* Informacion del sitio */
   .section__container--img {
-    background-image: url(../img/wallpaper-manga-w960.png);
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/wallpaper-manga-w960.png);
     height: 75vh;
   }
   /* Fin informacion del sitio */
@@ -42,7 +42,7 @@
   /* Fin Nav */
   /* Informacion del sitio */
   .section__container--img {
-    background-image: url(../img/wallpaper-manga-w1920.png);
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/wallpaper-manga-w1920.png);
     background-position: center;
     background-size: cover;
     height: 80vh;

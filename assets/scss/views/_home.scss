@@ -5,21 +5,21 @@
 }
 
 .section__container--img {
-  background-image: url(../img/wallpaper-manga-w480.png);
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/wallpaper-manga-w480.png);
   height: 50vh;
   opacity: 0.8;
 }
 .section__container--text {
-  @include font-color($fuente-principal, $color-oscuro);
+  @include font-color($fuente-principal, $color-claro);
 }
 /* Fin informacion del sitio */
 /* Inicio productos */
 .section__h2 {
-  @extend .section__container--text;
+  @include font-color($fuente-principal, $color-oscuro);
   text-align: center;
 }
 .article--font {
-  @extend .section__container--text;
+  @extend .section__h2;
   font-family: $fuente-secundaria;
 }
 .card-img-index{
