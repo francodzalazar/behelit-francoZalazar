@@ -230,8 +230,7 @@ html {
     transform: scale(1.05, 1.05);
     transition: all 500ms; }
   .section__card__img {
-    height: 300px !important;
-    width: 100% !important; }
+    max-height: 280px !important; }
   /* Fin cards */
   /* Informacion de empresa */
   .section__p {

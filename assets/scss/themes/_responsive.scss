@@ -2,7 +2,8 @@
 @media (min-width: 576px) {
   /* Informacion del sitio */
   .section__container--img {
-    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/wallpaper-manga-w960.png);
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+      url(../img/wallpaper-manga-w960.png);
     height: 75vh;
   }
   /* Fin informacion del sitio */
@@ -42,7 +43,8 @@
   /* Fin Nav */
   /* Informacion del sitio */
   .section__container--img {
-    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/wallpaper-manga-w1920.png);
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+      url(../img/wallpaper-manga-w1920.png);
     background-position: center;
     background-size: cover;
     height: 80vh;
@@ -60,9 +62,8 @@
     transform: scale(1.05, 1.05);
     transition: all 500ms;
   }
-  .section__card__img{
-    height: 300px !important;
-    width: 100% !important;
+  .section__card__img {
+    max-height: 280px !important;
   }
   /* Fin cards */
   /* Informacion de empresa */
@@ -78,7 +79,7 @@
   .footer {
     margin-top: 2%;
   }
-  .footer__h4{
+  .footer__h4 {
     text-align: center !important;
   }
   .social {
