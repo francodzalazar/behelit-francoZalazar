@@ -61,36 +61,38 @@
     <main class="row m-0 p-0 min-vh-100">
       <section class="col-12 col-lg-6">
         <h1 class="section__h1--form mt-3 text-center">Contacto</h1>
-        <div class="w-75 m-auto section__form">
-          <div class="form-floating mb-3">
-            <input type="text" class="form-control section__form__input" id="floatingInput" placeholder="Nombre" />
-            <label for="floatingInput">Nombre</label>
-          </div>
-          <div class="form-floating mb-3">
-            <input type="tel" class="form-control section__form__input" id="floatingInput" placeholder="Telefono" />
-            <label for="floatingInput">Telefono</label>
-          </div>
-          <div class="form-floating mb-3">
-            <input type="email" class="form-control section__form__input" id="floatingInput"
-              placeholder="name@example.com" />
-            <label for="floatingInput">Correo Electronico</label>
-          </div>
-          <div class="form-floating">
-            <textarea class="form-control section__form__textarea" placeholder="Leave a comment here"
-              id="floatingTextarea" style="height: 100px"></textarea>
-            <label for="floatingTextarea">Mensaje</label>
-          </div>
-          <div class="col-4 mt-4 m-auto">
-            <button class="btn btn-dark section__form__input" type="submit">
-              Enviar
-            </button>
-          </div>
+        <div class="w-75 m-auto section__form mb-3">
+          <form method="get">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control section__form__input" id="floatingInput" placeholder="Nombre"
+                required />
+              <label for="floatingInput">Nombre</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="tel" class="form-control section__form__input" id="floatingInput" placeholder="Telefono"
+                required />
+              <label for="floatingInput">Telefono</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control section__form__input" id="floatingInput"
+                placeholder="name@example.com" required />
+              <label for="floatingInput">Correo Electronico</label>
+            </div>
+            <div class="form-floating">
+              <textarea class="form-control section__form__textarea" placeholder="Leave a comment here"
+                id="floatingTextarea" style="height: 100px" required></textarea>
+              <label for="floatingTextarea">Mensaje</label>
+            </div>
+            <div class="col-4 mt-4 m-auto">
+              <button class="btn btn-dark section__form__input" type="submit"> Enviar</button>
+            </div>
+          </form>
         </div>
       </section>
       <!-- Fin formulario de contacto -->
       <!-- Informacion de contacto -->
-      <section class="col-12 col-lg-6">
-        <div class="w-50 m-auto">
+      <section class="col-12 col-lg-6 text-center mb-5">
+        <div class="w-75 m-auto">
           <h2 class="h2 mt-3 section__h2">Ubicacion</h2>
           <div class="mx-auto">
             <iframe class="section__iframe"
