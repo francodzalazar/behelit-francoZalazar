@@ -1,0 +1,5 @@
+/* Inicio errores */
+.section__h1 {
+  @include font-color($fuente-principal, $color-oscuro);
+}
+/* Fin errores */

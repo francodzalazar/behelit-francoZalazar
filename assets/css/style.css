@@ -181,6 +181,12 @@ html {
   font-size: 1.25rem; }
 
 /* Fin informacion de empresa */
+/* Inicio errores */
+.section__h1 {
+  font-family: "Libre Baskerville", serif;
+  color: #2d3436 !important; }
+
+/* Fin errores */
 /* Responsive*/
 @media (min-width: 576px) {
   /* Informacion del sitio */
