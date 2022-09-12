@@ -16,6 +16,9 @@
   @extend .section__form;
   resize: none;
 }
+.section--animation--left {
+  animation: slide-in-left 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
+}
 /* Fin formulario de contacto */
 /* Informacion de contacto */
 .section__p {
@@ -27,5 +30,8 @@
   height: 40%;
   margin: 2%;
   border: 0;
+}
+.section--animation--right {
+  animation: slide-in-right 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
 }
 /* Fin informacion de contacto */

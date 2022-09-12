@@ -26,6 +26,26 @@ html {
     filter: blur(0);
     opacity: 1; } }
 
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0; }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1; } }
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0; }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1; } }
+
 @keyframes focus-in-contract-bck {
   0% {
     letter-spacing: 1em;
@@ -120,6 +140,11 @@ html {
   font-family: "Libre Baskerville", serif; }
 
 /* Fin productos */
+/* Main */
+.main--animation {
+  animation: text-focus-in 0.8s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
+
+/* Fin Main */
 /* Resultado de busqueda */
 .search__h2 {
   font-family: "Libre Baskerville", serif;
@@ -179,6 +204,9 @@ html {
 .section__form__textarea {
   resize: none; }
 
+.section--animation--left, .container--animation--left {
+  animation: slide-in-left 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both; }
+
 /* Fin formulario de contacto */
 /* Informacion de contacto */
 .section__p {
@@ -192,6 +220,9 @@ html {
   margin: 2%;
   border: 0; }
 
+.section--animation--right, .container--animation--right {
+  animation: slide-in-right 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both; }
+
 /* Fin informacion de contacto */
 /* Informacion de empresa */
 .section__h2--animation {
@@ -200,12 +231,6 @@ html {
 .section__h5 {
   font-family: "Libre Baskerville", serif;
   color: #2d3436 !important; }
-
-.section--animation--left {
-  animation: slide-in-left 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both; }
-
-.section--animation--right {
-  animation: slide-in-right 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both; }
 
 .section__container--img--nosotros {
   background-image: url(../img/nosotros-w480.png);

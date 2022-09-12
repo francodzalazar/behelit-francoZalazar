@@ -5,11 +5,11 @@
 .section__h5 {
   @include font-color($fuente-principal, $color-oscuro);
 }
-.section--animation--left{
-  animation: slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+.container--animation--left{
+  @extend .section--animation--left;
 }
-.section--animation--right{
-  animation: slide-in-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+.container--animation--right{
+  @extend .section--animation--right;
 }
 .section__container--img--nosotros {
   background-image: url(../img/nosotros-w480.png);

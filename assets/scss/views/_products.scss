@@ -1,3 +1,8 @@
+/* Main */
+  .main--animation{
+    animation: text-focus-in 0.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
+/* Fin Main */
 /* Resultado de busqueda */
 .search__h2 {
   @include font-color($fuente-principal, $color-oscuro);
