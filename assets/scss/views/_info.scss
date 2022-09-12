@@ -1,6 +1,15 @@
 /* Informacion de empresa */
+.section__h2--animation{
+  animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
 .section__h5 {
   @include font-color($fuente-principal, $color-oscuro);
+}
+.section--animation--left{
+  animation: slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+}
+.section--animation--right{
+  animation: slide-in-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
 }
 .section__container--img--nosotros {
   background-image: url(../img/nosotros-w480.png);

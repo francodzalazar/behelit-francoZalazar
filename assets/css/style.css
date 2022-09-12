@@ -26,6 +26,33 @@ html {
     filter: blur(0);
     opacity: 1; } }
 
+@keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(300px);
+    filter: blur(12px);
+    opacity: 0; }
+  100% {
+    transform: translateZ(12px);
+    filter: blur(0);
+    opacity: 1; } }
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0; }
+  100% {
+    transform: translateX(0);
+    opacity: 1; } }
+
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(1000px);
+    opacity: 0; }
+  100% {
+    transform: translateX(0);
+    opacity: 1; } }
+
 /*Fin animaciones*/
 /*Header*/
 .logo {
@@ -54,7 +81,8 @@ html {
 
 .footer__a {
   color: #f9f9f9 !important;
-  font-size: 2rem; }
+  font-size: 2rem;
+  text-decoration: none; }
 
 .container--social {
   margin-top: 0; }
@@ -64,7 +92,7 @@ html {
 /*Fin buttons*/
 /* Informacion del sitio */
 .section__container--animation {
-  animation: focus-in-expand-fwd 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 300ms both; }
+  animation: focus-in-expand-fwd 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 300ms both; }
 
 .section__container--img {
   background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/wallpaper-manga-w480.png);
@@ -166,9 +194,18 @@ html {
 
 /* Fin informacion de contacto */
 /* Informacion de empresa */
+.section__h2--animation {
+  animation: focus-in-contract-bck 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+
 .section__h5 {
   font-family: "Libre Baskerville", serif;
   color: #2d3436 !important; }
+
+.section--animation--left {
+  animation: slide-in-left 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both; }
+
+.section--animation--right {
+  animation: slide-in-right 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both; }
 
 .section__container--img--nosotros {
   background-image: url(../img/nosotros-w480.png);
